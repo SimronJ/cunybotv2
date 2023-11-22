@@ -1,0 +1,1830 @@
+<html lang="en-US"><head><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=edge">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<link href="https://fonts.googleapis.com/css?family=Libre Franklin" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+<link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://www.cuny.edu/favicon.ico">
+
+<script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+<script type="text/javascript" src="js/jquery-git.js"></script>
+ <script src="js/jquery-3.5.1.js"></script>
+ <script src="js/jquery.dataTables.min.js"></script> 
+ <script type="text/javascript" src="js/jquery.timepicker.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="css/jquery.timepicker.min.css">
+ <!-- commented out to make it work...timepicker is already using min.js-->
+ <!-- <script src="js/jquery.min.js"></script> -->
+ <script src="js/spin.min.js"></script><style type="text/css"></style>
+ <script src="js/jquery.spin.js"></script>
+
+</head><body><div class="wrapper">
+
+<div class="banner">
+	<img class="logobanner" src="images/new_globalsearch_logo.jpg" alt="CUNYfirst Global Search Tool Banner">
+</div>
+
+
+	
+
+
+
+
+<title>Global Class Search - Results</title>
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<script>
+//function to hide all passing divs from script in the jsp...bf
+function hideDiv(contentDivs) {
+	//alert (contentDivs);
+    document.getElementById(contentDivs).style.display = 'none';     
+ } 
+
+//institution toggle function...bf
+function subjectToggleInst(showHideDiv, switchImgTag) {
+        var ele = document.getElementById(showHideDiv);
+        var imageEle = document.getElementById(switchImgTag);
+
+        if(ele.style.display == "block") {
+                ele.style.display = "none";
+				//imageEle.innerHTML = '<img src="images/expand.gif" alt="Expanded">';
+				imageEle.innerHTML = '<i class="fa fa-chevron-circle-right" style="font-size:22px; color: #0c2254"></i>';
+        }
+        else {
+                ele.style.display = "block";
+                //imageEle.innerHTML = '<img src="images/collapse.gif" alt="Collapsed">';
+                imageEle.innerHTML = '<i class="fa fa-chevron-circle-down" style="font-size:22px; color: #0c2254"></i>';
+        }
+}
+//classes toggle function...bf
+function subjectToggle(showHideDiv, switchImgTag) {
+        var ele = document.getElementById(showHideDiv);
+        var imageEle = document.getElementById(switchImgTag);
+
+        if(ele.style.display == "block") {
+                ele.style.display = "none";
+				imageEle.innerHTML = '<img src="images/expand_subject.gif" alt="expand image">';
+        }
+        else {
+                ele.style.display = "block";
+                imageEle.innerHTML = '<img src="images/collapse_subject.gif" alt="collapse image">';
+        }
+}
+
+</script>
+
+
+
+
+<br>
+<br>
+ <div class="shadowbox">
+  <p>John Jay College | 2024 Spring Term</p> 
+ </div>
+<br>
+<br>
+
+<form name="form_search" action="CFSearchToolController" method="POST">
+
+
+
+ <div class="testing_msg">
+ 	<span>The following classes match your search criteria Course Subject: <strong>Computer Science</strong>, Course Career: <strong>Undergraduate</strong>,          Show Open Classes Only: <strong>No</strong>  </span>
+ </div>	 
+ 
+<br>
+ <div class="openclosewaitlist">	
+   <img src="images/status_open.gif" width="16" height="16" alt="Open" title="Open">&nbsp;Open&nbsp;&nbsp; 	
+   <img src="images/status_closed.gif" width="16" height="16" alt="Closed" title="Closed">&nbsp;Closed&nbsp;&nbsp;
+   <img src="images/status_waiting.gif" width="16" height="16" alt="Wait List" title="Wait List">&nbsp;Wait List
+ </div>
+
+<br>
+
+<div class="classfound_msg">
+ 	<span>60 class section(s) found&nbsp;</span>
+</div>	 
+<br>
+
+<div>
+	
+		   				<br>
+		   				<div class="testing_msg">															
+						    <span><a id="imageDivLink_inst0" href="javascript:subjectToggleInst('contentDivImg_inst0', 'imageDivLink_inst0');" aria-label="Class Section"><i class="fa fa-chevron-circle-down" style="font-size:22px; color: #0c2254"></i></a>&nbsp;&nbsp;John Jay College | 2024 Spring Term | 60 class section(s) found</span>						    
+						</div>
+	
+						<div id="contentDivImg_inst0" style="display: block;">
+
+						
+						<script type="text/javascript"> hideDiv('contentDivImg_inst0'); </script>
+						<br>
+		   				  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink0" href="javascript:subjectToggle('contentDivImg0', 'imageDivLink0')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;101&nbsp;-&nbsp;Computer Literacy</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg0" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg0'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=MzkxNDk=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">39149</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=MzkxNDk=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">98-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TBA</td>
+						<td data-label="Room" style="color: #333;">Online-Asynchronous</td>
+						<td data-label="Instructor" style="color: #333;">Howard Mandelbaum</td>
+						<td data-label="Instruction Mode" style="color: #333;">Online Asynchronous</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Computer Literacy</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=MzkxNDg=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">39148</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=MzkxNDg=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">99-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TBA</td>
+						<td data-label="Room" style="color: #333;">Online-Asynchronous</td>
+						<td data-label="Instructor" style="color: #333;">Howard Mandelbaum</td>
+						<td data-label="Instruction Mode" style="color: #333;">Online Asynchronous</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Computer Literacy</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink1" href="javascript:subjectToggle('contentDivImg1', 'imageDivLink1')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;171&nbsp;-&nbsp;Nature of Computers</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg1" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg1'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA4MDM=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40803</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA4MDM=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">01-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 4:30PM - 5:45PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg L2.79</td>
+						<td data-label="Instructor" style="color: #333;">Sonyl Nagale</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Nature of Computers</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDMzMzc=&amp;session_searched=V0lO&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">43337</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDMzMzc=&amp;session_searched=V0lO&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">599-LEC Winter</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TBA</td>
+						<td data-label="Room" style="color: #333;">Online-Asynchronous</td>
+						<td data-label="Instructor" style="color: #333;">Vivek Sharma</td>
+						<td data-label="Instruction Mode" style="color: #333;">Online Asynchronous</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/02/2024 - 01/23/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Nature of Computers</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink2" href="javascript:subjectToggle('contentDivImg2', 'imageDivLink2')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;172&nbsp;-&nbsp;Intro to Data Analysis</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg2" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg2'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDMzMzk=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">43339</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDMzMzk=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">01-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 3:05PM - 4:20PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.61</td>
+						<td data-label="Instructor" style="color: #333;">Fatma Najar</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Intro to Data Analysis</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink3" href="javascript:subjectToggle('contentDivImg3', 'imageDivLink3')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;270&nbsp;-&nbsp;Sec Computer Data</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg3" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg3'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMTE=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">41011</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMTE=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">01-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">Tu 10:50AM - 1:30PM</td>
+						<td data-label="Room" style="color: #333;">TBA</td>
+						<td data-label="Instructor" style="color: #333;">Alexandros Alexandrou</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Sec Computer Data</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDMzNjk=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">43369</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDMzNjk=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">98-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TBA</td>
+						<td data-label="Room" style="color: #333;">Online-Asynchronous</td>
+						<td data-label="Instructor" style="color: #333;">Alexandros Alexandrou</td>
+						<td data-label="Instruction Mode" style="color: #333;">Online Asynchronous</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_closed.gif" alt="Open" title="Closed" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Sec Computer Data</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMTI=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">41012</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMTI=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">99-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TBA</td>
+						<td data-label="Room" style="color: #333;">Online-Asynchronous</td>
+						<td data-label="Instructor" style="color: #333;">Zenobia Petersen</td>
+						<td data-label="Instruction Mode" style="color: #333;">Online Asynchronous</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Sec Computer Data</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink4" href="javascript:subjectToggle('contentDivImg4', 'imageDivLink4')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;271&nbsp;-&nbsp;Intro Comput &amp; Prog</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg4" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg4'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMDY=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">41006</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMDY=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">01-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">MoWe 8:00AM - 9:15AM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.64.02</td>
+						<td data-label="Instructor" style="color: #333;">Thurai Kugan</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Intro Comput &amp; Prog</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMDc=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">41007</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMDc=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">02-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">MoWe 9:25AM - 10:40AM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.64.02</td>
+						<td data-label="Instructor" style="color: #333;">Thurai Kugan</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Intro Comput &amp; Prog</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMDg=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">41008</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMDg=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">03-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 9:25AM - 10:40AM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.64.02</td>
+						<td data-label="Instructor" style="color: #333;">Shaobai Kan</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_closed.gif" alt="Open" title="Closed" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Intro Comput &amp; Prog</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMDk=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">41009</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMDk=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">04-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 8:00AM - 9:15AM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.61</td>
+						<td data-label="Instructor" style="color: #333;">Temidayo Akinyemi</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_closed.gif" alt="Open" title="Closed" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Intro Comput &amp; Prog</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink5" href="javascript:subjectToggle('contentDivImg5', 'imageDivLink5')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;272&nbsp;-&nbsp;Object-Oriented Programming</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg5" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg5'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMDI=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">41002</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMDI=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">01-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 8:00AM - 9:15AM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.64.02</td>
+						<td data-label="Instructor" style="color: #333;">Shaobai Kan</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Object-Oriented Programming</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMDU=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">41005</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMDU=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">02-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 10:50AM - 12:05PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.64.02</td>
+						<td data-label="Instructor" style="color: #333;">Maksi Kutrolli</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Object-Oriented Programming</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMDM=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">41003</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMDM=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">03-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 12:15PM - 1:30PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.64.02</td>
+						<td data-label="Instructor" style="color: #333;">Shaobai Kan</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Object-Oriented Programming</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDE1MDA=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">41500</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDE1MDA=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">04-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">MoWe 12:15PM - 1:30PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.64.02</td>
+						<td data-label="Instructor" style="color: #333;">Srinivasa Dumpa</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Object-Oriented Programming</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink6" href="javascript:subjectToggle('contentDivImg6', 'imageDivLink6')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;274&nbsp;-&nbsp;Computer Architecture</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg6" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg6'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5OTc=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40997</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5OTc=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">01-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 9:25AM - 10:40AM</td>
+						<td data-label="Room" style="color: #333;">New Bldg L2.79</td>
+						<td data-label="Instructor" style="color: #333;">Vivek Sharma</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Computer Architecture</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5OTg=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40998</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5OTg=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">02-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 10:50AM - 12:05PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg L2.79</td>
+						<td data-label="Instructor" style="color: #333;">Vivek Sharma</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Computer Architecture</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5OTk=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40999</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5OTk=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">03-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 3:05PM - 4:20PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg L2.79</td>
+						<td data-label="Instructor" style="color: #333;">Vivek Sharma</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Computer Architecture</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink7" href="javascript:subjectToggle('contentDivImg7', 'imageDivLink7')" aria-label="Class Section Sub"><img src="images/collapse_subject.gif" alt="collapse image"></a>&nbsp;CSCI&nbsp;275&nbsp;-&nbsp;Linux System Admin &amp; Security</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg7" style="display: block;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg7'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA3NjI=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40762</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA3NjI=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">01-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">Th 5:55PM - 8:35PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg L2.79</td>
+						<td data-label="Instructor" style="color: #333;">Richard Sullivan</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_closed.gif" alt="Open" title="Closed" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Linux System Admin &amp; Security</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=MzkyMTY=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">39216</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=MzkyMTY=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">02-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">Mo 5:55PM - 8:35PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg L2.79</td>
+						<td data-label="Instructor" style="color: #333;">Richard Sullivan</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_closed.gif" alt="Open" title="Closed" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Linux System Admin &amp; Security</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink8" href="javascript:subjectToggle('contentDivImg8', 'imageDivLink8')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;278&nbsp;-&nbsp;Software Off Mgmt</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg8" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg8'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=MzkxNDc=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">39147</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=MzkxNDc=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">99-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TBA</td>
+						<td data-label="Room" style="color: #333;">Online-Asynchronous</td>
+						<td data-label="Instructor" style="color: #333;">David Primak</td>
+						<td data-label="Instruction Mode" style="color: #333;">Online Asynchronous</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Software Off Mgmt</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink9" href="javascript:subjectToggle('contentDivImg9', 'imageDivLink9')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;360&nbsp;-&nbsp;Cryptography &amp; Cryptanalysis</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg9" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg9'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5MzY=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40936</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5MzY=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">01-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 9:25AM - 10:40AM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.61</td>
+						<td data-label="Instructor" style="color: #333;">Eli Amzallag</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Cryptography &amp; Cryptanalysis</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5MzM=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40933</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5MzM=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">02-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 10:50AM - 12:05PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.61</td>
+						<td data-label="Instructor" style="color: #333;">Hunter Johnson</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Cryptography &amp; Cryptanalysis</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5MzQ=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40934</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5MzQ=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">03-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 12:15PM - 1:30PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.61</td>
+						<td data-label="Instructor" style="color: #333;">Hunter Johnson</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Cryptography &amp; Cryptanalysis</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5MzU=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40935</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5MzU=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">04-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">Fr 10:50AM - 1:30PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.64.02</td>
+						<td data-label="Instructor" style="color: #333;">Matluba Khodjaeva</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Cryptography &amp; Cryptanalysis</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5Mzc=&amp;session_searched=V0lO&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40937</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5Mzc=&amp;session_searched=V0lO&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">599-LEC Winter</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">MoTuWeTh 9:00AM - 10:00AM</td>
+						<td data-label="Room" style="color: #333;">Online-Synchronous</td>
+						<td data-label="Instructor" style="color: #333;">Hunter Johnson</td>
+						<td data-label="Instruction Mode" style="color: #333;">Online Mix</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/02/2024 - 01/23/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_closed.gif" alt="Open" title="Closed" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Cryptography &amp; Cryptanalysis</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink10" href="javascript:subjectToggle('contentDivImg10', 'imageDivLink10')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;362&nbsp;-&nbsp;Databases and Data Mining</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg10" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg10'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5MDk=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40909</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5MDk=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">01-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">We 5:55PM - 8:35PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg L2.79</td>
+						<td data-label="Instructor" style="color: #333;">Sanjay Ramchandani</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Databases and Data Mining</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink11" href="javascript:subjectToggle('contentDivImg11', 'imageDivLink11')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;373&nbsp;-&nbsp;Advanced Data Structures</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg11" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg11'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5OTM=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40993</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5OTM=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">01-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 8:00AM - 9:15AM</td>
+						<td data-label="Room" style="color: #333;">New Bldg L2.79</td>
+						<td data-label="Instructor" style="color: #333;">Eman Abdu</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Advanced Data Structures</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5OTQ=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40994</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5OTQ=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">02-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 12:15PM - 1:30PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.67</td>
+						<td data-label="Instructor" style="color: #333;">Maksi Kutrolli</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Advanced Data Structures</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5OTU=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40995</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5OTU=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">03-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 3:05PM - 4:20PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.64.02</td>
+						<td data-label="Instructor" style="color: #333;">Maksi Kutrolli</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Advanced Data Structures</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5OTY=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40996</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5OTY=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">04-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 4:30PM - 5:45PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.64.02</td>
+						<td data-label="Instructor" style="color: #333;">Maksi Kutrolli</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Advanced Data Structures</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink12" href="javascript:subjectToggle('contentDivImg12', 'imageDivLink12')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;374&nbsp;-&nbsp;Programming Languages</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg12" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg12'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODc=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40987</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODc=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">01-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">MoWe 9:25AM - 10:40AM</td>
+						<td data-label="Room" style="color: #333;">New Bldg L2.79</td>
+						<td data-label="Instructor" style="color: #333;">Frank Pannizzo</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Programming Languages</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODk=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40989</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODk=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">02-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 9:25AM - 10:40AM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.67</td>
+						<td data-label="Instructor" style="color: #333;">Jinwoo Kim</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Programming Languages</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5OTA=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40990</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5OTA=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">03-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 10:50AM - 12:05PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.67</td>
+						<td data-label="Instructor" style="color: #333;">Jinwoo Kim</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Programming Languages</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5OTI=&amp;session_searched=V0lO&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40992</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5OTI=&amp;session_searched=V0lO&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">599-LEC Winter</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TBA</td>
+						<td data-label="Room" style="color: #333;">Online-Asynchronous</td>
+						<td data-label="Instructor" style="color: #333;">Jinwoo Kim</td>
+						<td data-label="Instruction Mode" style="color: #333;">Online Asynchronous</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/02/2024 - 01/23/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Programming Languages</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink13" href="javascript:subjectToggle('contentDivImg13', 'imageDivLink13')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;375&nbsp;-&nbsp;Operating Systems</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg13" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg13'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODU=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40985</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODU=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">01-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 3:05PM - 4:20PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.67</td>
+						<td data-label="Instructor" style="color: #333;">Jinwoo Kim</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Operating Systems</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODY=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40986</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODY=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">02-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">MoWe 3:05PM - 4:20PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg L2.79</td>
+						<td data-label="Instructor" style="color: #333;">Faheem Abdurrazzaaq</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Operating Systems</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODg=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40988</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODg=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">03-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">MoWe 4:30PM - 5:45PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.64.02</td>
+						<td data-label="Instructor" style="color: #333;">Faheem Abdurrazzaaq</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Operating Systems</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink14" href="javascript:subjectToggle('contentDivImg14', 'imageDivLink14')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;377&nbsp;-&nbsp;Computer Algorithms</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg14" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg14'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODI=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40982</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODI=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">01-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">MoWe 8:00AM - 9:15AM</td>
+						<td data-label="Room" style="color: #333;">New Bldg L2.79</td>
+						<td data-label="Instructor" style="color: #333;">Frank Pannizzo</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Computer Algorithms</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODM=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40983</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODM=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">02-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">MoWe 12:15PM - 1:30PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg L2.79</td>
+						<td data-label="Instructor" style="color: #333;">Frank Pannizzo</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Computer Algorithms</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODQ=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40984</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODQ=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">03-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 12:15PM - 1:30PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg L2.79</td>
+						<td data-label="Instructor" style="color: #333;">Fatma Najar</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Computer Algorithms</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink15" href="javascript:subjectToggle('contentDivImg15', 'imageDivLink15')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;379&nbsp;-&nbsp;Computer Networking</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg15" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg15'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5Nzk=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40979</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5Nzk=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">01-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">MoWe 9:25AM - 10:40AM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.67</td>
+						<td data-label="Instructor" style="color: #333;">Kumar Ramansenthil</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Computer Networking</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODA=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40980</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODA=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">02-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">MoWe 10:50AM - 12:05PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.67</td>
+						<td data-label="Instructor" style="color: #333;">Kumar Ramansenthil</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_closed.gif" alt="Open" title="Closed" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Computer Networking</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODE=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40981</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5ODE=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">03-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">MoWe 12:15PM - 1:30PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.64.04</td>
+						<td data-label="Instructor" style="color: #333;">Muath Obaidat</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Computer Networking</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink16" href="javascript:subjectToggle('contentDivImg16', 'imageDivLink16')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;380&nbsp;-&nbsp;Topics in Computer Science</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg16" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg16'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMTU=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">41015</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDEwMTU=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">03-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">Tu 5:55PM - 8:35PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg L2.79</td>
+						<td data-label="Instructor" style="color: #333;">Eric Spector</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Appl Client-Centered Software</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink17" href="javascript:subjectToggle('contentDivImg17', 'imageDivLink17')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;400&nbsp;-&nbsp;Capstone Exp in CyberSec I</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg17" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg17'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5Nzc=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40977</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5Nzc=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">01-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">Mo 12:15PM - 1:30PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.61</td>
+						<td data-label="Instructor" style="color: #333;">Meryem Abouali</td>
+						<td data-label="Instruction Mode" style="color: #333;">Hybrid Asynchronous</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_closed.gif" alt="Open" title="Closed" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Capstone Exp in CyberSec I</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5Nzg=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40978</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5Nzg=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">02-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">We 12:15PM - 1:30PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.61</td>
+						<td data-label="Instructor" style="color: #333;">Meryem Abouali</td>
+						<td data-label="Instruction Mode" style="color: #333;">Hybrid Asynchronous</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_closed.gif" alt="Open" title="Closed" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Capstone Exp in CyberSec I</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5NzY=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40976</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5NzY=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">03-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">Th 5:55PM - 8:35PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.64.02</td>
+						<td data-label="Instructor" style="color: #333;">Todd Danko</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_closed.gif" alt="Open" title="Closed" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Capstone Exp in CyberSec I</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDE2Njk=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">41669</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDE2Njk=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">04-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">Mo 3:05PM - 4:20PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.61</td>
+						<td data-label="Instructor" style="color: #333;">Meryem Abouali</td>
+						<td data-label="Instruction Mode" style="color: #333;">Hybrid Asynchronous</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Capstone Exp in CyberSec I</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink18" href="javascript:subjectToggle('contentDivImg18', 'imageDivLink18')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;401&nbsp;-&nbsp;Capstone CyberSecurity II</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg18" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg18'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA4NzQ=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40874</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA4NzQ=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">01-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">We 3:05PM - 4:20PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.61</td>
+						<td data-label="Instructor" style="color: #333;">Jennifer Holst</td>
+						<td data-label="Instruction Mode" style="color: #333;">Hybrid Asynchronous</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_closed.gif" alt="Open" title="Closed" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Capstone CyberSecurity II</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA4NzU=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40875</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA4NzU=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">02-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">Tu 5:55PM - 8:35PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.64.02</td>
+						<td data-label="Instructor" style="color: #333;">Todd Danko</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Capstone CyberSecurity II</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA4NzY=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40876</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA4NzY=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">03-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">Fr 3:05PM - 5:45PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.64.02</td>
+						<td data-label="Instructor" style="color: #333;">Kadri Brogi</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Capstone CyberSecurity II</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA4Nzc=&amp;session_searched=V0lO&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40877</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA4Nzc=&amp;session_searched=V0lO&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">599-LEC Winter</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TBA</td>
+						<td data-label="Room" style="color: #333;">Online-Asynchronous</td>
+						<td data-label="Instructor" style="color: #333;">Jennifer Holst</td>
+						<td data-label="Instruction Mode" style="color: #333;">Online Asynchronous</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/02/2024 - 01/23/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_open.gif" alt="Open" title="Open" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Capstone CyberSecurity II</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink19" href="javascript:subjectToggle('contentDivImg19', 'imageDivLink19')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;411&nbsp;-&nbsp;Computer Security &amp; Forensics</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg19" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg19'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5MzI=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40932</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5MzI=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">97-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TBA</td>
+						<td data-label="Room" style="color: #333;">Online-Asynchronous</td>
+						<td data-label="Instructor" style="color: #333;">Aftab Ahmad</td>
+						<td data-label="Instruction Mode" style="color: #333;">Online Asynchronous</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_closed.gif" alt="Open" title="Closed" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Computer Security &amp; Forensics</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5MzA=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40930</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5MzA=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">98-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TBA</td>
+						<td data-label="Room" style="color: #333;">Online-Asynchronous</td>
+						<td data-label="Instructor" style="color: #333;">Aftab Ahmad</td>
+						<td data-label="Instruction Mode" style="color: #333;">Online Asynchronous</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_closed.gif" alt="Open" title="Closed" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Computer Security &amp; Forensics</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5MzE=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40931</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5MzE=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">99-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TBA</td>
+						<td data-label="Room" style="color: #333;">Online-Asynchronous</td>
+						<td data-label="Instructor" style="color: #333;">Aftab Ahmad</td>
+						<td data-label="Instruction Mode" style="color: #333;">Online Asynchronous</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_closed.gif" alt="Open" title="Closed" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Computer Security &amp; Forensics</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+		  				
+				<div class="testing_msg">											
+						<span>&nbsp;<a id="imageDivLink20" href="javascript:subjectToggle('contentDivImg20', 'imageDivLink20')" aria-label="Class Section Sub"><img src="images/expand_subject.gif" alt="Expand Class"></a>&nbsp;CSCI&nbsp;412&nbsp;-&nbsp;Network Security and Forensics</span>		
+				</div>
+				<br>
+					
+			
+			
+		    <div id="contentDivImg20" style="display: none;">
+
+		    
+		    <script type="text/javascript"> hideDiv('contentDivImg20'); </script>
+							
+					
+						
+				<table class="classinfo"> 	
+				  <thead>	 		
+				      <tr>
+						<th>Class</th>
+						<th>Section</th>
+						<th>Days &amp; Times</th>
+						<th>Room</th>					
+						<th>Instructor</th>
+						<th>Instruction Mode</th>
+						<th>Meeting Dates</th>
+						<th>Status</th>
+						<th>Course Topic</th>	
+				     </tr> 
+				    </thead>
+
+				    	
+
+			 		
+			 	<tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5NDE=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40941</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5NDE=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">01-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">Mo 10:50AM - 12:05PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.64.02</td>
+						<td data-label="Instructor" style="color: #333;">Muath Obaidat</td>
+						<td data-label="Instruction Mode" style="color: #333;">Hybrid Asynchronous</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_closed.gif" alt="Open" title="Closed" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Network Security and Forensics</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5NDI=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40942</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5NDI=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">02-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">We 10:50AM - 12:05PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.64.02</td>
+						<td data-label="Instructor" style="color: #333;">Muath Obaidat</td>
+						<td data-label="Instruction Mode" style="color: #333;">Hybrid Asynchronous</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_closed.gif" alt="Open" title="Closed" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Network Security and Forensics</td>	
+						
+							
+				
+			 	</tr></tbody><tbody>
+					<tr>
+						<td data-label="Class" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5NDQ=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">40944</a></td>					
+						<td data-label="Section" style="color: #333;"><a href="CFSearchToolController?class_number_searched=NDA5NDQ=&amp;session_searched=MQ==&amp;term_searched=MTI0Mg==&amp;inst_searched=Sm9obiBKYXkgQ29sbGVnZQ==">03-LEC Regular</a></td>					
+						<td data-label="DaysAndTimes" style="color: #333;">TuTh 4:30PM - 5:45PM</td>
+						<td data-label="Room" style="color: #333;">New Bldg 6.61</td>
+						<td data-label="Instructor" style="color: #333;">TBA</td>
+						<td data-label="Instruction Mode" style="color: #333;">In Person</td>
+						<td data-label="Meeting Dates" style="color: #333;">01/25/2024 - 05/22/2024</td>
+						<td data-label="Status" style="color: #333;">&nbsp;<img src="images/status_closed.gif" alt="Open" title="Closed" align="right"></td>
+						<td data-label="Course Topic" style="color: #333;">Network Security and Forensics</td>	
+						
+							
+				
+					
+				</tr>
+				</tbody>
+				</table>
+				
+				<br>
+</div>
+								
+				</div>
+
+				<br><br><br><br><br><br>
+
+				
+
+<span class="submit_buttons">
+	<input type="submit" name="new_search" id="search_new_spin" class="new_search_button" value="New Search" title="New Search">
+	<input type="submit" name="modify_search" class="modify_search_button" value="Modify Search" title="Modify Search">
+</span>
+</div>
+</form>
+
+			
+<!--end of sidebar-->
+
+
+
+
+<div class="footer"> 
+	<div class="footer__items">
+	  Copyright 2023 | <a class="footerlink" href="http://www.cuny.edu/website/terms.html" target="popup">Terms of Use</a> | 
+	  <a class="footerlink" href="http://www.cuny.edu/about/colleges-schools/" target="popup">College Websites</a>
+	</div>
+</div>	
+
+
+</div></body></html>
