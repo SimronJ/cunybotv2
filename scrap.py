@@ -1,9 +1,21 @@
 from playwright.sync_api import Playwright, sync_playwright, expect
 import csv
+import datetime
+import os
+
+
+def make_abbreviation(name):
+    # Split the name into words
+    words = name.split()
+
+    # Take the first letter of each word and combine them
+    abbreviation = "".join(word[0].upper() for word in words)
+
+    return abbreviation
 
 
 def run(playwright: Playwright) -> None:
-    browser = playwright.chromium.launch(headless=False)
+    browser = playwright.chromium.launch(headless=True)
     context = browser.new_context()
     page = context.new_page()
     # -----PAGE 1
@@ -29,6 +41,7 @@ def run(playwright: Playwright) -> None:
     # Ask the user to choose a college
     selected_index = int(input("Select a college by entering its number: ")) - 1
     selected_college = colleges[selected_index]
+    school_name = make_abbreviation(selected_college)
 
     # Find and click the corresponding checkbox
     checkbox = page.get_by_text(selected_college)
@@ -88,6 +101,7 @@ def run(playwright: Playwright) -> None:
     # Ask the user to choose a subject
     selected_index = int(input("Select a subject by entering its number: ")) - 1
     selected_subject_value = subjects[selected_index][1]
+    subject = subjects[selected_index][1]
 
     # Select the chosen subject
     subject_select.select_option(selected_subject_value)
@@ -173,8 +187,18 @@ def run(playwright: Playwright) -> None:
         # Combine course name with its classes
         course_data = {"course_name": course_name, "classes": classes}
         combined_courses.append(course_data)
+
+    # Get the current date in YYYYMMDD format
+    current_date = datetime.datetime.now().strftime("%Y%m%d")
+
+    folder_path = "collegeCourseData"
+    # Create the folder if it doesn't exist
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+    # Create the file name
+    file_name = f"{folder_path}/{school_name}_{subject}-{current_date}.csv"
     # Create a CSV file
-    with open("JJ_CS-Courses.csv", "w", newline="", encoding="utf-8") as file:
+    with open(file_name, "w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
         # Write header
         writer.writerow(
