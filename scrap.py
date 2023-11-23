@@ -1,4 +1,5 @@
 from playwright.sync_api import Playwright, sync_playwright, expect
+from bs4 import BeautifulSoup
 import csv
 import datetime
 import os
@@ -15,7 +16,7 @@ def make_abbreviation(name):
 
 
 def run(playwright: Playwright) -> None:
-    browser = playwright.chromium.launch(headless=True)
+    browser = playwright.chromium.launch(headless=False)
     context = browser.new_context()
     page = context.new_page()
     # -----PAGE 1
@@ -71,7 +72,7 @@ def run(playwright: Playwright) -> None:
 
     # Select the chosen term
     term_select.select_option(selected_term_value)
-    # ===========================================================================
+
     page.get_by_role("button", name="Next").click()
 
     # -----PAGE 2
@@ -135,60 +136,61 @@ def run(playwright: Playwright) -> None:
     # Select the chosen course career
     course_career_select.select_option(selected_career_value)
 
+    page.locator(".slider").first.click()
+
     page.get_by_role("button", name="Search").click()
     # -----PAGE 3
+
     print("page 3")
+
     page.get_by_label("Class Section", exact=True).click()
     # page.get_by_text("CSCI 274 - Computer Architecture").click()
     # page.locator("#imageDivLink7").click()
 
-    # Query all the div elements with the class "testing_msg"
+    # Query all the div elements with the class "testing_msg" and extract course full names
     course_name_elements = page.query_selector_all(".testing_msg")
-    # Extract course full names
-    course_full_names = []
-    for element in course_name_elements:
-        # Extract the text content from the span element inside the div
-        course_full_name = (
-            element.query_selector("span")
-            .get_property("innerText")
-            .json_value()
-            .strip()
-        )
-        # Append the course full name to the list
-        course_full_names.append(course_full_name)
+    course_full_names = [
+        element.query_selector("span").inner_text().strip()
+        for element in course_name_elements
+        if element
+    ]
 
-    courses_table = page.query_selector_all(".classinfo")
-    # Combined data structure
+    # Get the HTML content of the page
+    html_content = page.content()
+    # Parse the HTML content with BeautifulSoup
+    soup = BeautifulSoup(html_content, "html.parser")
+    # Find all tables with the class 'classinfo'
+    tables = soup.find_all("table", class_="classinfo")
     combined_courses = []
 
-    # Iterate over both course names and tables
-    for course_name, table in zip(course_full_names[2:], courses_table):
-        # Extract classes for each course
+    for course_name, table in zip(course_full_names[2:], tables):
+        if table is None:
+            print("Table element not found for", course_name)
+            continue
+
         classes = []
-        class_bodies = table.query_selector_all("tbody")
-        for tbody in class_bodies:
-            class_row = tbody.query_selector("tr")
+        for tbody in table.find_all("tbody"):
+            class_row = tbody.find("tr")
             if class_row:
-                cells = class_row.query_selector_all("td")
-                status_img = cells[7].query_selector("img")
-                status = status_img.get_attribute("title") if status_img else "Unknown"
+                cells = class_row.find_all("td")
+                status_img = cells[7].find("img") if len(cells) > 7 else None
+                status = status_img["title"] if status_img else "Unknown"
+
                 class_info = {
-                    "class": cells[0].text_content().strip(),
-                    "section": cells[1].text_content().strip(),
-                    "days_times": cells[2].text_content().strip(),
-                    "room": cells[3].text_content().strip(),
-                    "instructor": cells[4].text_content().strip(),
-                    "instruction_mode": cells[5].text_content().strip(),
-                    "meeting_dates": cells[6].text_content().strip(),
+                    "class": cells[0].get_text(strip=True),
+                    "section": cells[1].get_text(strip=True),
+                    "days_times": cells[2].get_text(strip=True),
+                    "room": cells[3].get_text(strip=True),
+                    "instructor": cells[4].get_text(strip=True),
+                    "instruction_mode": cells[5].get_text(strip=True),
+                    "meeting_dates": cells[6].get_text(strip=True),
                     "status": status,
                 }
                 classes.append(class_info)
 
-        # Combine course name with its classes
         course_data = {"course_name": course_name, "classes": classes}
         combined_courses.append(course_data)
 
-    # Get the current date in YYYYMMDD format
     current_date = datetime.datetime.now().strftime("%Y%m%d")
 
     folder_path = "collegeCourseData"
@@ -231,6 +233,8 @@ def run(playwright: Playwright) -> None:
                         class_info["status"],
                     ]
                 )
+
+    print("Data has been scraped!")
 
     # # Query all the div elements with the class "testing_msg"
     # course_name_elements = page.query_selector_all(".testing_msg")
