@@ -1,0 +1,307 @@
+[
+    {
+        "course_name": "PHYS\u00a0113\u00a0-\u00a0Physics Laboratory I",
+        "classes": [
+            {
+                "class": "13291",
+                "section": "R21-LAB Regular",
+                "days_times": "Th 8:00AM - 9:50AM",
+                "room": "Acad Core 2E04",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "13292",
+                "section": "R2LA-LAB Regular",
+                "days_times": "Th 5:00PM - 6:50PM",
+                "room": "Acad Core 2E04",
+                "instructor": "Zachary Richards",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "13290",
+                "section": "S2L8-LAB Regular",
+                "days_times": "Sa 3:00PM - 4:50PM",
+                "room": "Acad Core 2E04",
+                "instructor": "Kanhiya Shukla",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "13289",
+                "section": "T2L1-LAB Regular",
+                "days_times": "Tu 8:00AM - 9:50AM",
+                "room": "Acad Core 2E04",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "PHYS\u00a0114\u00a0-\u00a0Physics Laboratory II",
+        "classes": [
+            {
+                "class": "13288",
+                "section": "F23-LAB Regular",
+                "days_times": "Fr 12:00PM - 1:50PM",
+                "room": "Acad Core 2E01",
+                "instructor": "Tricia Kutwaru",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "13287",
+                "section": "R21-LAB Regular",
+                "days_times": "Th 8:00AM - 9:50AM",
+                "room": "Acad Core 2E01",
+                "instructor": "Tricia Kutwaru",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "13286",
+                "section": "R25-LAB Regular",
+                "days_times": "Th 4:00PM - 5:50PM",
+                "room": "Acad Core 2E01",
+                "instructor": "Tricia Kutwaru",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "13285",
+                "section": "T21-LAB Regular",
+                "days_times": "Tu 8:00AM - 9:50AM",
+                "room": "Acad Core 2E01",
+                "instructor": "Tricia Kutwaru",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "PHYS\u00a0115\u00a0-\u00a0College Physics I",
+        "classes": [
+            {
+                "class": "13284",
+                "section": "O-LEC Regular",
+                "days_times": "TuTh 10:45AM - 12:00PM",
+                "room": "Acad Core 2M04",
+                "instructor": "Zachary Richards",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "13283",
+                "section": "R2L7-REC Regular",
+                "days_times": "Th 2:00PM - 3:50PM",
+                "room": "Acad Core 2E04",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "13280",
+                "section": "S22-REC Regular",
+                "days_times": "Sa 12:00PM - 1:50PM",
+                "room": "Acad Core 2E04",
+                "instructor": "Kanhiya Shukla",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "13281",
+                "section": "S3-LEC Regular",
+                "days_times": "Sa 9:00AM - 11:50AM",
+                "room": "Acad Core 2E04",
+                "instructor": "Kanhiya Shukla",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "13282",
+                "section": "T2L7-REC Regular",
+                "days_times": "Tu 2:00PM - 3:50PM",
+                "room": "Acad Core 2F08",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "PHYS\u00a0116\u00a0-\u00a0College Physics II",
+        "classes": [
+            {
+                "class": "13279",
+                "section": "P-LEC Regular",
+                "days_times": "TuTh 2:00PM - 3:15PM",
+                "room": "Acad Core 2M04",
+                "instructor": "Zachary Richards",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "13278",
+                "section": "T2L3-REC Regular",
+                "days_times": "Tu 10:00AM - 11:50AM",
+                "room": "Acad Core 2E01",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "13606",
+                "section": "T2L9-REC Regular",
+                "days_times": "Tu 4:00PM - 5:50PM",
+                "room": "Acad Core 2F06",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "PHYS\u00a0117\u00a0-\u00a0University Physics I",
+        "classes": [
+            {
+                "class": "13277",
+                "section": "Q-LEC Regular",
+                "days_times": "TuTh 3:30PM - 4:45PM",
+                "room": "Acad Core 2M04",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "13276",
+                "section": "T2L3-REC Regular",
+                "days_times": "Tu 10:00AM - 11:50AM",
+                "room": "Acad Core 2F06",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "13275",
+                "section": "T2L9-REC Regular",
+                "days_times": "Tu 5:00PM - 6:50PM",
+                "room": "Acad Core 2E04",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "PHYS\u00a0118\u00a0-\u00a0University Physics II",
+        "classes": [
+            {
+                "class": "13274",
+                "section": "P-LEC Regular",
+                "days_times": "TuTh 2:00PM - 3:15PM",
+                "room": "Acad Core 3H11A",
+                "instructor": "James Popp",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "13273",
+                "section": "R2LA-REC Regular",
+                "days_times": "Th 5:00PM - 6:50PM",
+                "room": "Acad Core 2F08",
+                "instructor": "James Popp",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "13272",
+                "section": "T2L9-REC Regular",
+                "days_times": "Tu 4:00PM - 5:50PM",
+                "room": "Acad Core 2E01",
+                "instructor": "James Popp",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "PHYS\u00a0140\u00a0-\u00a0The Physical Universe",
+        "classes": [
+            {
+                "class": "13271",
+                "section": "BC-LEC Regular",
+                "days_times": "MoWe 10:00AM - 11:50AM",
+                "room": "Acad Core 2E04",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "13270",
+                "section": "CD-LEC Regular",
+                "days_times": "MoWe 12:00PM - 1:50PM",
+                "room": "Acad Core 2E04",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "PHYS\u00a0231\u00a0-\u00a0Oscillations and Waves",
+        "classes": [
+            {
+                "class": "16625",
+                "section": "KL-LEC Regular",
+                "days_times": "WeFr 4:00PM - 5:50PM",
+                "room": "Acad Core 2F08",
+                "instructor": "James Popp",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "PHYS\u00a0241\u00a0-\u00a0Modern Physics",
+        "classes": [
+            {
+                "class": "18777",
+                "section": "DE-LEC Regular",
+                "days_times": "MoWe 2:00PM - 3:50PM",
+                "room": "Acad Core 2F08",
+                "instructor": "Andrew Edmonds",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    }
+]
