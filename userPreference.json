@@ -1,11 +1,11 @@
 {
-    "collegeName": "YorkCollege",
-    "selected_index": 25,
-    "selected_collegeCode": "YRK01",
+    "collegeName": "BoroughofManhattanCC",
+    "selected_index": 1,
+    "selected_collegeCode": "BMC01",
     "term_index": 1,
     "term_selected": "1242",
-    "subjectName": "PHYS",
-    "subject_index": 47,
+    "subjectName": "AMSL",
+    "subject_index": 2,
     "whichCareer": "UGRD",
-    "career_index": 1
+    "career_index": 0
 }

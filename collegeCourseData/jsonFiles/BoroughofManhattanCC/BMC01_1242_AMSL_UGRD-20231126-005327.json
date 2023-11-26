@@ -1,0 +1,62 @@
+[
+    {
+        "course_name": "ASL\u00a0105\u00a0-\u00a0Elem American Sign Lang I",
+        "classes": [
+            {
+                "class": "34796",
+                "section": "0500-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Edward Nevarez",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "34800",
+                "section": "1000-LEC Regular",
+                "days_times": "TuFr 10:00AM - 11:40AMFr 12:00PM - 12:50PM",
+                "room": "Main Bldg S739Main Bldg S532",
+                "instructor": "Edward Nevarez",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/202401/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "36999",
+                "section": "1700-LEC Regular",
+                "days_times": "MoWe 5:25PM - 7:05PMMo 7:25PM - 8:15PM",
+                "room": "Main Bldg S719Main Bldg S532",
+                "instructor": "",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/202401/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "ASL\u00a0106\u00a0-\u00a0Elem American Sign Lang II",
+        "classes": [
+            {
+                "class": "34791",
+                "section": "0500-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Edward Nevarez",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "34794",
+                "section": "1300-LEC Regular",
+                "days_times": "Fr 3:00PM - 3:50PMTuFr 1:00PM - 2:40PM",
+                "room": "Main Bldg S532Main Bldg N587",
+                "instructor": "Edward Nevarez",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/202401/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    }
+]

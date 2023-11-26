@@ -13,6 +13,15 @@ logging.basicConfig(
 )
 
 
+def is_data_recent(filename, age_limit_days=7):
+    if not os.path.exists(filename):
+        return False
+    file_modified_time = datetime.datetime.fromtimestamp(os.path.getmtime(filename))
+    daysItHasBeen = (datetime.datetime.now() - file_modified_time).days
+    logging.info(f"{filename} file is {daysItHasBeen} days old.")
+    return (datetime.datetime.now() - file_modified_time).days <= age_limit_days
+
+
 def create_directory(directory):
     if not os.path.exists(directory):
         os.makedirs(directory, exist_ok=True)
@@ -129,18 +138,40 @@ def select_college_and_term(page, user_preferences):
     term_index = user_preferences.get("term_index") if user_preferences else -1
     term_selected = user_preferences.get("term_selected") if user_preferences else None
 
+    # Define paths and filenames
+    collegeDataList_path = "CollegeDataList"
+    college_data_file = "college_data.json"
+    term_data_file = "term_data.json"
+
+    # Create directories if they don't exist
+    create_directory(collegeDataList_path)
+    create_directory(college_data_file)
+    create_directory(term_data_file)
+
+    # Join paths correctly
+    college_data_file = os.path.join(collegeDataList_path, college_data_file)
+    term_data_file = os.path.join(collegeDataList_path, term_data_file)
+
     # Navigate to the page
     logging.info("Navigating to the CUNY search page...")
     page.goto("https://globalsearch.cuny.edu/CFGlobalSearchTool/search.jsp")
 
     # Extract college names
+    # Check if the college data is recent and use it if so
     college_checkboxes = page.query_selector_all("ul.checkboxes input[type='checkbox']")
-    colleges = [
-        page.query_selector(f"label[for='{checkbox.get_attribute('id')}']")
-        .text_content()
-        .strip()
-        for checkbox in college_checkboxes
-    ]
+
+    if is_data_recent(college_data_file):
+        logging.info(f"Using old college data but not older than a week.")
+        colleges = preferences.load_data(college_data_file)
+    else:
+        # Scrape college data
+        colleges = [
+            page.query_selector(f"label[for='{checkbox.get_attribute('id')}']")
+            .text_content()
+            .strip()
+            for checkbox in college_checkboxes
+        ]
+        preferences.save_data(college_data_file, colleges)
 
     if collegeName is None:
         # Display colleges and ask user to select
@@ -166,27 +197,34 @@ def select_college_and_term(page, user_preferences):
 
     checkbox.click()
 
-    # Extract terms
     term_select = page.query_selector("select[name='term_value']")
-    if term_select is None:
-        logging.error("Term select element not found.")
-        return None, None
 
-    terms = [
-        (option.text_content().strip(), option.get_attribute("value"))
-        for option in term_select.query_selector_all("option")
-        if option.get_attribute("value")
-    ]
+    # Check if the college data is recent and use it if so
+    if is_data_recent(term_data_file):
+        logging.info(f"Using old term data but not older than a week.")
+        terms = preferences.load_data(term_data_file)
+    else:
+        # Extract terms
+        if term_select is None:
+            logging.error("Term select element not found.")
+            return None, None
+        # Scrape terms data
+        college_checkboxes = page.query_selector_all(
+            "ul.checkboxes input[type='checkbox']"
+        )
+        terms = [
+            (option.text_content().strip(), option.get_attribute("value"))
+            for option in term_select.query_selector_all("option")
+            if option.get_attribute("value")
+        ]
+        preferences.save_data(term_data_file, terms)
 
     if collegeName is None:
         # Display terms and ask user to select
         for index, term in enumerate(terms, start=1):
             logging.info(f"{index}. {term[0]}")
 
-    if term_index < 0:
-        term_index = (
-            term_index and int(input("Select a term by entering its number: ")) - 1
-        )
+    term_index = term_index and int(input("Select a term by entering its number: ")) - 1
     if term_selected is None:
         term_selected = terms[term_index][1]
 
