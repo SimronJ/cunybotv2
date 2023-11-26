@@ -1,0 +1,45 @@
+{
+    "CollegeList": [
+        "Baruch College",
+        "Borough of Manhattan CC",
+        "Bronx CC",
+        "Brooklyn College",
+        "City College",
+        "College of Staten Island",
+        "Graduate Center",
+        "Guttman CC",
+        "Hostos CC",
+        "Hunter College",
+        "John Jay College",
+        "Kingsborough CC",
+        "LaGuardia CC",
+        "Lehman College",
+        "Macaulay Honors College",
+        "Medgar Evers College",
+        "NYC College of Technology",
+        "Queens College",
+        "Queensborough CC",
+        "School of Journalism",
+        "School of Labor&Urban Studies",
+        "School of Law",
+        "School of Medicine",
+        "School of Professional Studies",
+        "School of Public Health",
+        "York College",
+        "Select All Institutions"
+    ],
+    "TermList": [
+        [
+            "2024 Summer Term",
+            "1246"
+        ],
+        [
+            "2024 Spring Term",
+            "1242"
+        ],
+        [
+            "2023 Fall Term",
+            "1239"
+        ]
+    ]
+}

@@ -1,0 +1,77 @@
+[
+    {
+        "course_name": "SPAN\u00a076000\u00a0-\u00a0Sp Amer Lit Colonial Per",
+        "classes": [
+            {
+                "class": "43464",
+                "section": "01-LEC Regular",
+                "days_times": "Th 5:30PM - 7:20PM",
+                "room": "West Bldg W1344",
+                "instructor": "Maria Fischer",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a079692\u00a0-\u00a0Imag of Lab in Lat Am Art Lit",
+        "classes": [
+            {
+                "class": "45086",
+                "section": "01-LEC Regular",
+                "days_times": "Mo 7:30PM - 9:20PM",
+                "room": "Online-Synchronous",
+                "instructor": "Ana Tello",
+                "instruction_mode": "Online Synchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a079900\u00a0-\u00a0Thesis Seminar",
+        "classes": [
+            {
+                "class": "6976",
+                "section": "01-THE Regular",
+                "days_times": "TBA",
+                "room": "TBA",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "-",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "TRNS\u00a075400\u00a0-\u00a0English to Spanish Translation",
+        "classes": [
+            {
+                "class": "10557",
+                "section": "01-LEC Regular",
+                "days_times": "Th 5:30PM - 8:00PM",
+                "room": "West Bldg W1731",
+                "instructor": "Natasha Tiniaco Ferrer",
+                "instruction_mode": "HyFlex",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "TRNS\u00a075600\u00a0-\u00a0Span-Engl Medical Interpreting",
+        "classes": [
+            {
+                "class": "10408",
+                "section": "01-LEC Regular",
+                "days_times": "Sa 11:10AM - 1:50PM",
+                "room": "West Bldg W409",
+                "instructor": "Christian Gonzalez",
+                "instruction_mode": "HyFlex",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    }
+]

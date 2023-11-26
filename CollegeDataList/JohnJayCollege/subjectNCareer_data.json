@@ -1,0 +1,270 @@
+{
+    "SubjectList": [
+        [
+            "Accounting",
+            "ACCT"
+        ],
+        [
+            "Africana Studies",
+            "AFST"
+        ],
+        [
+            "American Sign Language",
+            "AMSL"
+        ],
+        [
+            "Anthropology",
+            "ANTH"
+        ],
+        [
+            "Arabic",
+            "ARAB"
+        ],
+        [
+            "Art",
+            "ART"
+        ],
+        [
+            "Biology",
+            "BIOL"
+        ],
+        [
+            "Chemistry",
+            "CHEM"
+        ],
+        [
+            "Chinese",
+            "CHIN"
+        ],
+        [
+            "Communications",
+            "COMM"
+        ],
+        [
+            "Computer Science",
+            "COMP"
+        ],
+        [
+            "Correction Administration",
+            "COAD"
+        ],
+        [
+            "Counseling",
+            "COUN"
+        ],
+        [
+            "Counseling and Human Services",
+            "COHS"
+        ],
+        [
+            "Crim Justice International",
+            "CRIN"
+        ],
+        [
+            "Criminal Justice",
+            "CJST"
+        ],
+        [
+            "Criminal Justice",
+            "CRIM"
+        ],
+        [
+            "Dramatic Arts",
+            "DRAM"
+        ],
+        [
+            "Economics",
+            "ECON"
+        ],
+        [
+            "Education",
+            "EDUC"
+        ],
+        [
+            "Education Physical",
+            "EDPH"
+        ],
+        [
+            "Emergency Services Admin",
+            "EMSA"
+        ],
+        [
+            "English",
+            "ENGL"
+        ],
+        [
+            "Environmental Justice Studies",
+            "EVJS"
+        ],
+        [
+            "Fire Science",
+            "FISC"
+        ],
+        [
+            "Forensic Computing",
+            "CMFO"
+        ],
+        [
+            "Forensic Science",
+            "FOSC"
+        ],
+        [
+            "French",
+            "FREN"
+        ],
+        [
+            "Gender Studies",
+            "GNST"
+        ],
+        [
+            "German",
+            "GERM"
+        ],
+        [
+            "History",
+            "HIST"
+        ],
+        [
+            "Honors Seminar",
+            "HONS"
+        ],
+        [
+            "Human Rights",
+            "HURI"
+        ],
+        [
+            "Humanities",
+            "HUMA"
+        ],
+        [
+            "Humanities and Justice",
+            "HUJU"
+        ],
+        [
+            "Interdisciplinary Studies",
+            "INTE"
+        ],
+        [
+            "Italian",
+            "ITAL"
+        ],
+        [
+            "Japanese",
+            "JAPA"
+        ],
+        [
+            "Latin American Studies",
+            "LAST"
+        ],
+        [
+            "Law",
+            "LAW"
+        ],
+        [
+            "Law and Society",
+            "LAWS"
+        ],
+        [
+            "Literature",
+            "LITE"
+        ],
+        [
+            "Macaulay Honors College",
+            "MAHC"
+        ],
+        [
+            "Maintenance of Matriculation",
+            "MAOM"
+        ],
+        [
+            "Mathematics",
+            "MATH"
+        ],
+        [
+            "Music",
+            "MUSI"
+        ],
+        [
+            "Philosophy",
+            "PHIL"
+        ],
+        [
+            "Physics",
+            "PHYS"
+        ],
+        [
+            "Police Science",
+            "POLS"
+        ],
+        [
+            "Political Science",
+            "POSC"
+        ],
+        [
+            "Portuguese",
+            "PORT"
+        ],
+        [
+            "Protection Management",
+            "PRMA"
+        ],
+        [
+            "Psychology",
+            "PSYC"
+        ],
+        [
+            "Public Administration",
+            "PUAD"
+        ],
+        [
+            "Religion Studies",
+            "RELI"
+        ],
+        [
+            "Science",
+            "SCIE"
+        ],
+        [
+            "Security",
+            "SECU"
+        ],
+        [
+            "Social Entrep & Innovation",
+            "SOEI"
+        ],
+        [
+            "Social Science Research",
+            "SOSR"
+        ],
+        [
+            "Sociology",
+            "SOCI"
+        ],
+        [
+            "Spanish",
+            "SPAN"
+        ],
+        [
+            "Statistics",
+            "STAT"
+        ],
+        [
+            "Toxicology",
+            "TOXI"
+        ],
+        [
+            "Undergraduate Studies",
+            "UNST"
+        ]
+    ],
+    "CareerList": [
+        [
+            "Graduate",
+            "GRAD"
+        ],
+        [
+            "Undergraduate",
+            "UGRD"
+        ]
+    ]
+}

@@ -1,0 +1,462 @@
+{
+    "SubjectList": [
+        [
+            "Accounting",
+            "ACCT"
+        ],
+        [
+            "Africana/PR/Latino St",
+            "APLS"
+        ],
+        [
+            "Anthropology",
+            "ANTH"
+        ],
+        [
+            "Anthropology Culture",
+            "ANTC"
+        ],
+        [
+            "Anthropology Physical",
+            "ANTP"
+        ],
+        [
+            "Arabic",
+            "ARAB"
+        ],
+        [
+            "Art Creative",
+            "ARTC"
+        ],
+        [
+            "Art History",
+            "ARTH"
+        ],
+        [
+            "Art Liberal Arts",
+            "ARTL"
+        ],
+        [
+            "Arts Integrated Media",
+            "ARIM"
+        ],
+        [
+            "Asian/Asian American Studies",
+            "ASAM"
+        ],
+        [
+            "Astronomy",
+            "ASTR"
+        ],
+        [
+            "Bio-Chemistry",
+            "BICH"
+        ],
+        [
+            "Biological Sciences",
+            "BISC"
+        ],
+        [
+            "Business",
+            "BUSI"
+        ],
+        [
+            "Chemistry",
+            "CHEM"
+        ],
+        [
+            "Chinese",
+            "CHIN"
+        ],
+        [
+            "Classical Culture/Archaeology",
+            "CCAR"
+        ],
+        [
+            "Communication Science",
+            "COSC"
+        ],
+        [
+            "Community Health",
+            "COHE"
+        ],
+        [
+            "Comparative Literature",
+            "COLI"
+        ],
+        [
+            "Computer Science",
+            "CMSC"
+        ],
+        [
+            "Counseling",
+            "COUN"
+        ],
+        [
+            "Curriculum and Teaching",
+            "CUTE"
+        ],
+        [
+            "Dance",
+            "DANC"
+        ],
+        [
+            "Developmental Skills",
+            "DESK"
+        ],
+        [
+            "Economics",
+            "ECON"
+        ],
+        [
+            "Educ English as Second Lang",
+            "EDES"
+        ],
+        [
+            "Education",
+            "EDUC"
+        ],
+        [
+            "Education Applied Behavior",
+            "EDAB"
+        ],
+        [
+            "Education Art",
+            "EDAR"
+        ],
+        [
+            "Education Bilingual",
+            "EDBL"
+        ],
+        [
+            "Education Chinese",
+            "EDCN"
+        ],
+        [
+            "Education Dance",
+            "EDDA"
+        ],
+        [
+            "Education Early Childhood",
+            "EDEC"
+        ],
+        [
+            "Education Latin",
+            "EDLT"
+        ],
+        [
+            "Education Mental Health",
+            "EDMH"
+        ],
+        [
+            "Education Rehab Counseling",
+            "EDRC"
+        ],
+        [
+            "Education Specialized",
+            "EDSP"
+        ],
+        [
+            "Educational Foundation",
+            "EDFO"
+        ],
+        [
+            "English",
+            "ENGL"
+        ],
+        [
+            "Feminist Thought and Theory",
+            "FETH"
+        ],
+        [
+            "Film",
+            "FILM"
+        ],
+        [
+            "French",
+            "FREN"
+        ],
+        [
+            "Freshman Orientation/ Seminar",
+            "FROR"
+        ],
+        [
+            "Gender Literature and Arts",
+            "ARGL"
+        ],
+        [
+            "Gender and Public Policy",
+            "GEPP"
+        ],
+        [
+            "Geography",
+            "GEOG"
+        ],
+        [
+            "Geography Technology",
+            "GETE"
+        ],
+        [
+            "Geology",
+            "GEOL"
+        ],
+        [
+            "Geology and Geography",
+            "GEGE"
+        ],
+        [
+            "German",
+            "GERM"
+        ],
+        [
+            "Graduate Social Research",
+            "GRSR"
+        ],
+        [
+            "Greek",
+            "GREK"
+        ],
+        [
+            "Health And Physical Education",
+            "EDHP"
+        ],
+        [
+            "Hebrew",
+            "HEBR"
+        ],
+        [
+            "History",
+            "HIST"
+        ],
+        [
+            "Honors Seminar",
+            "HONS"
+        ],
+        [
+            "Human Biology",
+            "HUBI"
+        ],
+        [
+            "Human Rights",
+            "HURI"
+        ],
+        [
+            "Humanities",
+            "HUMA"
+        ],
+        [
+            "Independent Study",
+            "INDE"
+        ],
+        [
+            "Italian",
+            "ITAL"
+        ],
+        [
+            "Japanese",
+            "JAPA"
+        ],
+        [
+            "Jewish Studies",
+            "JWST"
+        ],
+        [
+            "Labor, Migration/Globalization",
+            "LAMG"
+        ],
+        [
+            "Latin",
+            "LATI"
+        ],
+        [
+            "Latin Amer/Caribbean Studi",
+            "LACS"
+        ],
+        [
+            "Library Science",
+            "LISC"
+        ],
+        [
+            "Linguistics",
+            "LING"
+        ],
+        [
+            "Literacy Education",
+            "EDLI"
+        ],
+        [
+            "Macaulay Honors College",
+            "MAHC"
+        ],
+        [
+            "Mathematics",
+            "MATH"
+        ],
+        [
+            "Media Studies",
+            "MEST"
+        ],
+        [
+            "Medical Lab Science",
+            "MELS"
+        ],
+        [
+            "Music",
+            "MUSI"
+        ],
+        [
+            "Music History And Literature",
+            "MUSH"
+        ],
+        [
+            "Music Performance",
+            "MUSP"
+        ],
+        [
+            "Music Theory",
+            "MUST"
+        ],
+        [
+            "Nursing",
+            "NURS"
+        ],
+        [
+            "Nutrition",
+            "NUTR"
+        ],
+        [
+            "Nutrition and Food Science",
+            "NUFS"
+        ],
+        [
+            "Philosophy",
+            "PHIL"
+        ],
+        [
+            "Physical Therapy",
+            "PHTH"
+        ],
+        [
+            "Physics",
+            "PHYS"
+        ],
+        [
+            "Polish",
+            "POLI"
+        ],
+        [
+            "Political Science",
+            "POSC"
+        ],
+        [
+            "Portuguese",
+            "PORT"
+        ],
+        [
+            "Psychology",
+            "PSYC"
+        ],
+        [
+            "Public Health",
+            "PUHE"
+        ],
+        [
+            "Public Policy",
+            "PUPO"
+        ],
+        [
+            "Religion Studies",
+            "RELI"
+        ],
+        [
+            "Russian",
+            "RUSS"
+        ],
+        [
+            "Russian Area Studies",
+            "RUAS"
+        ],
+        [
+            "School of Social Work",
+            "SCSW"
+        ],
+        [
+            "Science",
+            "SCIE"
+        ],
+        [
+            "Sexuality",
+            "SEXU"
+        ],
+        [
+            "Social Work",
+            "SOWO"
+        ],
+        [
+            "Sociology",
+            "SOCI"
+        ],
+        [
+            "Spanish",
+            "SPAN"
+        ],
+        [
+            "Statistics",
+            "STAT"
+        ],
+        [
+            "Study Abroad",
+            "STAB"
+        ],
+        [
+            "Theatre And Cinema",
+            "THEC"
+        ],
+        [
+            "Theatre And Film",
+            "THEF"
+        ],
+        [
+            "Translation",
+            "TRAS"
+        ],
+        [
+            "Ukrainian",
+            "UKRA"
+        ],
+        [
+            "Urban Affairs",
+            "UBAF"
+        ],
+        [
+            "Urban Planning",
+            "UBPL"
+        ],
+        [
+            "Urban Studies",
+            "UBST"
+        ],
+        [
+            "Women and Gender Studies",
+            "WGST"
+        ],
+        [
+            "Women/Gender Across Cultures",
+            "WGAC"
+        ]
+    ],
+    "CareerList": [
+        [
+            "Doctoral",
+            "DOCT"
+        ],
+        [
+            "Graduate",
+            "GRAD"
+        ],
+        [
+            "Undergraduate",
+            "UGRD"
+        ]
+    ]
+}

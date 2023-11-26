@@ -16,10 +16,19 @@ logging.basicConfig(
 def is_data_recent(filename, age_limit_days=7):
     if not os.path.exists(filename):
         return False
+
     file_modified_time = datetime.datetime.fromtimestamp(os.path.getmtime(filename))
-    daysItHasBeen = (datetime.datetime.now() - file_modified_time).days
-    logging.info(f"{filename} file is {daysItHasBeen} days old.")
-    return (datetime.datetime.now() - file_modified_time).days <= age_limit_days
+    days_it_has_been = (datetime.datetime.now() - file_modified_time).days
+    logging.info(f"{filename} file is {days_it_has_been} days old.")
+
+    if days_it_has_been > age_limit_days:
+        logging.info(
+            f"File {filename} is older than {age_limit_days} days, deleting it."
+        )
+        os.remove(filename)
+        return False
+
+    return True
 
 
 def create_directory(directory):
@@ -140,17 +149,16 @@ def select_college_and_term(page, user_preferences):
 
     # Define paths and filenames
     collegeDataList_path = "CollegeDataList"
-    college_data_file = "college_data.json"
-    term_data_file = "term_data.json"
+    collegeNTerm_data_file = "collegeNTerm_data.json"
 
     # Create directories if they don't exist
     create_directory(collegeDataList_path)
-    create_directory(college_data_file)
-    create_directory(term_data_file)
 
     # Join paths correctly
-    college_data_file = os.path.join(collegeDataList_path, college_data_file)
-    term_data_file = os.path.join(collegeDataList_path, term_data_file)
+    college_data_file = os.path.join(collegeDataList_path, collegeNTerm_data_file)
+
+    # Try to load existing data
+    collegeNTermData = preferences.load_data(college_data_file)
 
     # Navigate to the page
     logging.info("Navigating to the CUNY search page...")
@@ -160,9 +168,9 @@ def select_college_and_term(page, user_preferences):
     # Check if the college data is recent and use it if so
     college_checkboxes = page.query_selector_all("ul.checkboxes input[type='checkbox']")
 
-    if is_data_recent(college_data_file):
+    if is_data_recent(college_data_file) and "CollegeList" in collegeNTermData:
         logging.info(f"Using old college data but not older than a week.")
-        colleges = preferences.load_data(college_data_file)
+        colleges = collegeNTermData.get("CollegeList", [])
     else:
         # Scrape college data
         colleges = [
@@ -171,7 +179,6 @@ def select_college_and_term(page, user_preferences):
             .strip()
             for checkbox in college_checkboxes
         ]
-        preferences.save_data(college_data_file, colleges)
 
     if collegeName is None:
         # Display colleges and ask user to select
@@ -200,9 +207,9 @@ def select_college_and_term(page, user_preferences):
     term_select = page.query_selector("select[name='term_value']")
 
     # Check if the college data is recent and use it if so
-    if is_data_recent(term_data_file):
+    if is_data_recent(college_data_file) and "TermList" in collegeNTermData:
         logging.info(f"Using old term data but not older than a week.")
-        terms = preferences.load_data(term_data_file)
+        terms = collegeNTermData.get("TermList", [])
     else:
         # Extract terms
         if term_select is None:
@@ -217,14 +224,17 @@ def select_college_and_term(page, user_preferences):
             for option in term_select.query_selector_all("option")
             if option.get_attribute("value")
         ]
-        preferences.save_data(term_data_file, terms)
+        # Save file for faster use
+        collegeNTermData = {"CollegeList": colleges, "TermList": terms}
+        preferences.save_data(college_data_file, collegeNTermData)
 
     if collegeName is None:
         # Display terms and ask user to select
         for index, term in enumerate(terms, start=1):
             logging.info(f"{index}. {term[0]}")
 
-    term_index = term_index and int(input("Select a term by entering its number: ")) - 1
+    if term_index < 0:
+        term_index = int(input("Select a term by entering its number: ")) - 1
     if term_selected is None:
         term_selected = terms[term_index][1]
 
@@ -241,11 +251,30 @@ def select_college_and_term(page, user_preferences):
     ]
 
 
-def select_subject_and_career(page, user_preferences):
+def select_subject_and_career(page, collegeName, user_preferences):
     subject_name = user_preferences.get("subjectName") if user_preferences else None
     subject_index = user_preferences.get("subject_index") if user_preferences else -1
     which_career = user_preferences.get("whichCareer") if user_preferences else None
     career_index = user_preferences.get("career_index") if user_preferences else -1
+
+    # Define paths and filenames
+    collegeName_path = collegeName
+    collegeDataList_path = "CollegeDataList"
+    subjectNCareer_data_file = "subjectNCareer_data.json"
+
+    # Create directories if they don't exist
+    create_directory(os.path.join(collegeDataList_path, collegeName_path))
+
+    # Join paths correctly
+    subject_data_file = os.path.join(
+        collegeDataList_path, collegeName_path, subjectNCareer_data_file
+    )
+
+    # Try to load existing data
+    subjectNCareerData = preferences.load_data(subject_data_file)
+
+    if subjectNCareerData is None:
+        subjectNCareerData = {}
 
     # Process for subjects
     subject_select = page.query_selector("#subject_ld")
@@ -258,11 +287,16 @@ def select_subject_and_career(page, user_preferences):
             None,
         )
 
-    subjects = [
-        (option.text_content().strip(), option.get_attribute("value"))
-        for option in subject_select.query_selector_all("option")
-        if option.get_attribute("value")
-    ]
+    if is_data_recent(subject_data_file) and "SubjectList" in subjectNCareerData:
+        logging.info(f"Using cached subject data.")
+        subjects = subjectNCareerData.get("SubjectList", [])
+    else:
+        subjects = [
+            (option.text_content().strip(), option.get_attribute("value"))
+            for option in subject_select.query_selector_all("option")
+            if option.get_attribute("value")
+        ]
+        subjectNCareerData["SubjectList"] = subjects
 
     if subject_name is None:
         # Display subjects and ask user to select
@@ -281,11 +315,18 @@ def select_subject_and_career(page, user_preferences):
         logging.error("Course career select element not found.")
         return None, None, None, None
 
-    careers = [
-        (option.text_content().strip(), option.get_attribute("value"))
-        for option in course_career_select.query_selector_all("option")
-        if option.get_attribute("value")
-    ]
+    if is_data_recent(subject_data_file) and "CareerList" in subjectNCareerData:
+        logging.info(f"Using cached career data.")
+        careers = subjectNCareerData.get("CareerList", [])
+    else:
+        careers = [
+            (option.text_content().strip(), option.get_attribute("value"))
+            for option in course_career_select.query_selector_all("option")
+            if option.get_attribute("value")
+        ]
+        subjectNCareerData["CareerList"] = careers
+        # Save the updated data
+        preferences.save_data(subject_data_file, subjectNCareerData)
 
     if which_career is None:
         # Display careers and ask user to select
@@ -387,7 +428,7 @@ def run(playwright: Playwright) -> None:
                 subject_index,
                 whichCareer,
                 career_index,
-            ) = select_subject_and_career(page, user_preferences)
+            ) = select_subject_and_career(page, collegeName, user_preferences)
 
         else:
             collegeName = user_preferences.get("collegeName")
