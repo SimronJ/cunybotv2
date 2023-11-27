@@ -169,7 +169,6 @@ def select_college_and_term(page, user_preferences):
     college_checkboxes = page.query_selector_all("ul.checkboxes input[type='checkbox']")
 
     if is_data_recent(college_data_file) and "CollegeList" in collegeNTermData:
-        logging.info(f"Using old college data but not older than a week.")
         colleges = collegeNTermData.get("CollegeList", [])
     else:
         # Scrape college data
@@ -208,7 +207,6 @@ def select_college_and_term(page, user_preferences):
 
     # Check if the college data is recent and use it if so
     if is_data_recent(college_data_file) and "TermList" in collegeNTermData:
-        logging.info(f"Using old term data but not older than a week.")
         terms = collegeNTermData.get("TermList", [])
     else:
         # Extract terms
@@ -451,7 +449,7 @@ def run(playwright: Playwright) -> None:
                 subject_index,
                 whichCareer,
                 career_index,
-            ) = select_subject_and_career(page, user_preferences)
+            ) = select_subject_and_career(page, collegeName, user_preferences)
             logging.info("Selected subject and career")
 
         logging.info("Now extracting classes")
