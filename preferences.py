@@ -1,4 +1,5 @@
 import json
+import aiofiles
 import logging
 
 # Configure logging
@@ -44,10 +45,11 @@ def save_data(file_path, data):
         json.dump(data, file, indent=4)
 
 
-def load_data(file_path):
+async def load_data(file_path):
     try:
-        with open(file_path, "r") as file:
-            return json.load(file)
+        async with aiofiles.open(file_path, mode="r", encoding="utf-8") as file:
+            data = await file.read()
+            return json.loads(data)
     except FileNotFoundError:
         return None
 

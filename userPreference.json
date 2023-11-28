@@ -1,11 +1,11 @@
 {
-    "collegeName": "JohnJayCollege",
-    "selected_index": 10,
-    "selected_collegeCode": "JJC01",
+    "collegeName": "HunterCollege",
+    "selected_index": 9,
+    "selected_collegeCode": "HTR01",
     "term_index": 1,
     "term_selected": "1242",
-    "subjectName": "COMP",
-    "subject_index": 10,
+    "subjectName": "SPAN",
+    "subject_index": 99,
     "whichCareer": "UGRD",
-    "career_index": 1
+    "career_index": 2
 }

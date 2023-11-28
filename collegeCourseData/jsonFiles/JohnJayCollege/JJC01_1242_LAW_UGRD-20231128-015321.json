@@ -1,0 +1,932 @@
+[
+    {
+        "course_name": "LAW\u00a0202\u00a0-\u00a0Law and Evidence",
+        "classes": [
+            {
+                "class": "40034",
+                "section": "01-LEC Regular",
+                "days_times": "MoWe 9:25AM - 10:40AM",
+                "room": "TBA",
+                "instructor": "Brian Maule",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40033",
+                "section": "02-LEC Regular",
+                "days_times": "MoWe 10:50AM - 12:05PM",
+                "room": "TBA",
+                "instructor": "Yue Ma",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40032",
+                "section": "03-LEC Regular",
+                "days_times": "MoWe 4:30PM - 5:45PM",
+                "room": "TBA",
+                "instructor": "Fred Collins",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40035",
+                "section": "05-LEC Regular",
+                "days_times": "TuTh 5:55PM - 7:10PM",
+                "room": "TBA",
+                "instructor": "Mark Panzavecchia",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40036",
+                "section": "06-LEC Regular",
+                "days_times": "TuTh 7:20PM - 8:35PM",
+                "room": "TBA",
+                "instructor": "Michael Croce",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40038",
+                "section": "301-LEC Regular",
+                "days_times": "Sa 9:25AM - 12:05PM",
+                "room": "TBA",
+                "instructor": "Joseph Darr",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "38987",
+                "section": "98-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "TBA",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "38986",
+                "section": "99-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Moses Cowan",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "40037",
+                "section": "599-LEC Winter",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Isabel Schneider",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/02/2024 - 01/23/2024",
+                "status": "Closed"
+            }
+        ]
+    },
+    {
+        "course_name": "LAW\u00a0203\u00a0-\u00a0Constitutional Law",
+        "classes": [
+            {
+                "class": "40160",
+                "section": "01-LEC Regular",
+                "days_times": "MoWe 12:15PM - 1:30PM",
+                "room": "TBA",
+                "instructor": "Yue Ma",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40158",
+                "section": "02-LEC Regular",
+                "days_times": "MoWe 3:05PM - 4:20PM",
+                "room": "TBA",
+                "instructor": "Fred Collins",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "41623",
+                "section": "03-LEC Regular",
+                "days_times": "MoWe 4:30PM - 5:45PM",
+                "room": "TBA",
+                "instructor": "Gloria Browne-Marshall",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40162",
+                "section": "04-LEC Regular",
+                "days_times": "MoWe 5:55PM - 7:10PM",
+                "room": "TBA",
+                "instructor": "Gloria Browne-Marshall",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40159",
+                "section": "06-LEC Regular",
+                "days_times": "TuTh 8:00AM - 9:15AM",
+                "room": "TBA",
+                "instructor": "Charles Barbuti",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40157",
+                "section": "07-LEC Regular",
+                "days_times": "TuTh 9:25AM - 10:40AM",
+                "room": "TBA",
+                "instructor": "James Durkin",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40163",
+                "section": "08-LEC Regular",
+                "days_times": "TuTh 3:05PM - 4:20PM",
+                "room": "TBA",
+                "instructor": "Diane Peress Goldstein",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40161",
+                "section": "09-LEC Regular",
+                "days_times": "TuTh 4:30PM - 5:45PM",
+                "room": "TBA",
+                "instructor": "Charles Tortorici",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40171",
+                "section": "10-LEC Regular",
+                "days_times": "TuTh 5:55PM - 7:10PM",
+                "room": "TBA",
+                "instructor": "Charles Tortorici",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40167",
+                "section": "11-LEC Regular",
+                "days_times": "TuTh 7:20PM - 8:35PM",
+                "room": "TBA",
+                "instructor": "Mark Panzavecchia",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40170",
+                "section": "12-LEC Regular",
+                "days_times": "Fr 8:00AM - 10:40AM",
+                "room": "TBA",
+                "instructor": "Isabel Schneider",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40169",
+                "section": "301-LEC Regular",
+                "days_times": "Sa 12:15PM - 2:55PM",
+                "room": "TBA",
+                "instructor": "Joseph Darr",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40168",
+                "section": "95-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Patrick Timmins",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40173",
+                "section": "96-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Brian Maule",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40172",
+                "section": "97-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Dennis Consumano",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40166",
+                "section": "98-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Isabel Schneider",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40165",
+                "section": "99-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Moses Cowan",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40164",
+                "section": "599-LEC Winter",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Yue Ma",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/02/2024 - 01/23/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "LAW\u00a0204\u00a0-\u00a0Criminal Law of New York",
+        "classes": [
+            {
+                "class": "39882",
+                "section": "01-LEC Regular",
+                "days_times": "MoWe 5:55PM - 7:10PM",
+                "room": "TBA",
+                "instructor": "Manouska Saint Gilles",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "39883",
+                "section": "02-LEC Regular",
+                "days_times": "TuTh 10:50AM - 12:05PM",
+                "room": "TBA",
+                "instructor": "Gary Wright",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "38985",
+                "section": "99-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Isabel Schneider",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            }
+        ]
+    },
+    {
+        "course_name": "LAW\u00a0206\u00a0-\u00a0The American Judiciary",
+        "classes": [
+            {
+                "class": "40103",
+                "section": "01-LEC Regular",
+                "days_times": "MoWe 10:50AM - 12:05PM",
+                "room": "TBA",
+                "instructor": "Bernadette Ford",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "38984",
+                "section": "97-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Ian Heller",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "38983",
+                "section": "98-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Victor Rubin",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "38982",
+                "section": "99-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Joseph Suarez",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "LAW\u00a0209\u00a0-\u00a0Criminal Law",
+        "classes": [
+            {
+                "class": "39535",
+                "section": "01-LEC Regular",
+                "days_times": "MoWe 4:30PM - 5:45PM",
+                "room": "TBA",
+                "instructor": "Walter Signorelli",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "39536",
+                "section": "02-LEC Regular",
+                "days_times": "MoWe 7:20PM - 8:35PM",
+                "room": "TBA",
+                "instructor": "Patrick Timmins",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "39537",
+                "section": "03-LEC Regular",
+                "days_times": "TuTh 12:15PM - 1:30PM",
+                "room": "TBA",
+                "instructor": "Julius DiFiore",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "38981",
+                "section": "99-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Victor Rubin",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "39538",
+                "section": "599-LEC Winter",
+                "days_times": "MoTuWeTh 9:00AM - 12:30PM",
+                "room": "Online-Synchronous",
+                "instructor": "Gary Wright",
+                "instruction_mode": "Online Synchronous",
+                "meeting_dates": "01/02/2024 - 01/23/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "LAW\u00a0212\u00a0-\u00a0Code Crmnal Procs",
+        "classes": [
+            {
+                "class": "38980",
+                "section": "99-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Dennis Consumano",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            }
+        ]
+    },
+    {
+        "course_name": "LAW\u00a0213\u00a0-\u00a0News Media & Just",
+        "classes": [
+            {
+                "class": "41651",
+                "section": "02-LEC Regular",
+                "days_times": "TuTh 3:05PM - 4:20PM",
+                "room": "TBA",
+                "instructor": "John Donaldson",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "43869",
+                "section": "599-LEC Winter",
+                "days_times": "MoTuWeTh 1:15PM - 4:45PM",
+                "room": "Online-Synchronous",
+                "instructor": "John Donaldson",
+                "instruction_mode": "Online Synchronous",
+                "meeting_dates": "01/02/2024 - 01/23/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "LAW\u00a0259\u00a0-\u00a0Comp Crm Jus Sysm",
+        "classes": [
+            {
+                "class": "40127",
+                "section": "01-LEC Regular",
+                "days_times": "Tu 9:25AM - 10:40AM",
+                "room": "TBA",
+                "instructor": "Adriana Garcia Garcia",
+                "instruction_mode": "Hybrid Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40128",
+                "section": "02-LEC Regular",
+                "days_times": "MoWe 10:50AM - 12:05PM",
+                "room": "TBA",
+                "instructor": "Andreas Karras",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "LAW\u00a0301\u00a0-\u00a0Jurisprudence",
+        "classes": [
+            {
+                "class": "39907",
+                "section": "01-LEC Regular",
+                "days_times": "MoWe 9:25AM - 10:40AM",
+                "room": "TBA",
+                "instructor": "Ian Heller",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "39908",
+                "section": "03-LEC Regular",
+                "days_times": "MoWe 3:05PM - 4:20PM",
+                "room": "TBA",
+                "instructor": "Ian Heller",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "39911",
+                "section": "07-LEC Regular",
+                "days_times": "TuTh 5:55PM - 7:10PM",
+                "room": "TBA",
+                "instructor": "Jose Hasbun",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "52322",
+                "section": "94-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Lisa Teich",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "52321",
+                "section": "95-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Lisa Teich",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "38979",
+                "section": "96-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Manouska Saint Gilles",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "38978",
+                "section": "97-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Justin Giordano",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "38977",
+                "section": "98-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Joseph Suarez",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "38976",
+                "section": "99-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Hermann Walz",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "39912",
+                "section": "599-LEC Winter",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Joseph Suarez",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/02/2024 - 01/23/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "LAW\u00a0310\u00a0-\u00a0Ethics and Law",
+        "classes": [
+            {
+                "class": "41560",
+                "section": "01-LEC Regular",
+                "days_times": "MoWe 12:15PM - 1:30PM",
+                "room": "TBA",
+                "instructor": "Enrique Chavez-Arvizo",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40627",
+                "section": "02-LEC Regular",
+                "days_times": "MoWe 9:25AM - 10:40AM",
+                "room": "TBA",
+                "instructor": "Enrique Chavez-Arvizo",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40630",
+                "section": "03-LEC Regular",
+                "days_times": "TuTh 9:25AM - 10:40AM",
+                "room": "TBA",
+                "instructor": "Matias Bulnesbeniscelli",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "38975",
+                "section": "98-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Matias Bulnesbeniscelli",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "40628",
+                "section": "599-LEC Winter",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Jacob Browning",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/02/2024 - 01/23/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "LAW\u00a0313\u00a0-\u00a0Law/Pol Race Rel",
+        "classes": [
+            {
+                "class": "40183",
+                "section": "01-LEC Regular",
+                "days_times": "TuTh 9:25AM - 10:40AM",
+                "room": "TBA",
+                "instructor": "Nilsa Santiago",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40184",
+                "section": "02-LEC Regular",
+                "days_times": "MoWe 12:15PM - 1:30PM",
+                "room": "TBA",
+                "instructor": "Gloria Browne-Marshall",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40185",
+                "section": "03-LEC Regular",
+                "days_times": "TuTh 12:15PM - 1:30PM",
+                "room": "TBA",
+                "instructor": "Nilsa Santiago",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40182",
+                "section": "05-LEC Regular",
+                "days_times": "TuTh 5:55PM - 7:10PM",
+                "room": "TBA",
+                "instructor": "Diane Peress Goldstein",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "38973",
+                "section": "96-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Alexandra Moffett-Bateau",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "38972",
+                "section": "97-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Alexandra Moffett-Bateau",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "38971",
+                "section": "98-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Alexandra Moffett-Bateau",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "38967",
+                "section": "PD01-LEC Regular",
+                "days_times": "Fr 9:00AM - 11:45AM",
+                "room": "Online-Synchronous",
+                "instructor": "Mary Gibbons",
+                "instruction_mode": "Online Synchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "38966",
+                "section": "PD02-LEC Regular",
+                "days_times": "Fr 5:00PM - 7:45PM",
+                "room": "Online-Synchronous",
+                "instructor": "Mary Gibbons",
+                "instruction_mode": "Online Synchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "40187",
+                "section": "599-LEC Winter",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Dennis Consumano",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/02/2024 - 01/23/2024",
+                "status": "Closed"
+            }
+        ]
+    },
+    {
+        "course_name": "LAW\u00a0320\u00a0-\u00a0Sem Search&Seizre",
+        "classes": [
+            {
+                "class": "39493",
+                "section": "01-LEC Regular",
+                "days_times": "MoWe 12:15PM - 1:30PM",
+                "room": "TBA",
+                "instructor": "Bernadette Ford",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "38965",
+                "section": "99-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Kenneth Odonnell",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            }
+        ]
+    },
+    {
+        "course_name": "LAW\u00a0370\u00a0-\u00a0Psychology and the Law",
+        "classes": [
+            {
+                "class": "39598",
+                "section": "01-LEC Regular",
+                "days_times": "TuTh 10:50AM - 12:05PM",
+                "room": "TBA",
+                "instructor": "Jennifer Dysart",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "39599",
+                "section": "02-LEC Regular",
+                "days_times": "MoWe 4:30PM - 5:45PM",
+                "room": "TBA",
+                "instructor": "Cody Stitzel",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "39604",
+                "section": "03-LEC Regular",
+                "days_times": "TuTh 5:55PM - 7:10PM",
+                "room": "TBA",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "39605",
+                "section": "04-LEC Regular",
+                "days_times": "Mo 5:55PM - 7:10PM",
+                "room": "TBA",
+                "instructor": "Mawia Khogali",
+                "instruction_mode": "Hybrid Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "39601",
+                "section": "301-LEC Regular",
+                "days_times": "Sa 9:25AM - 12:05PM",
+                "room": "TBA",
+                "instructor": "BJ Cling",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "39603",
+                "section": "98-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Mark Fondacaro",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "39602",
+                "section": "99-LEC Regular",
+                "days_times": "Mo 10:50AM - 1:30PM",
+                "room": "Online-Synchronous",
+                "instructor": "Mindi Wapner",
+                "instruction_mode": "Online Synchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "39600",
+                "section": "599-LEC Winter",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Kostas Katsavdakis",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/02/2024 - 01/23/2024",
+                "status": "Closed"
+            }
+        ]
+    },
+    {
+        "course_name": "LAW\u00a0401\u00a0-\u00a0Problems of Constitutional Dev",
+        "classes": [
+            {
+                "class": "39878",
+                "section": "01-LEC Regular",
+                "days_times": "MoWe 10:50AM - 12:05PM",
+                "room": "TBA",
+                "instructor": "Brian Maule",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "39879",
+                "section": "02-LEC Regular",
+                "days_times": "MoWe 3:05PM - 4:20PM",
+                "room": "TBA",
+                "instructor": "Walter Signorelli",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "38964",
+                "section": "96-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Brian Maule",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "38963",
+                "section": "97-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Hermann Walz",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "38962",
+                "section": "98-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Danielle Sapse",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "38961",
+                "section": "99-LEC Regular",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Justin Giordano",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "39880",
+                "section": "599-LEC Winter",
+                "days_times": "TBA",
+                "room": "Online-Asynchronous",
+                "instructor": "Ian Heller",
+                "instruction_mode": "Online Asynchronous",
+                "meeting_dates": "01/02/2024 - 01/23/2024",
+                "status": "Open"
+            }
+        ]
+    }
+]

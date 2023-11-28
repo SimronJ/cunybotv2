@@ -1,0 +1,1192 @@
+[
+    {
+        "course_name": "SPAN\u00a010100\u00a0-\u00a0Elementary Spanish I",
+        "classes": [
+            {
+                "class": "9593",
+                "section": "01-LEC Regular",
+                "days_times": "TuWeFr 9:30AM - 10:20AM",
+                "room": "West Bldg W707C",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9592",
+                "section": "02-LEC Regular",
+                "days_times": "TuWeFr 8:30AM - 9:20AM",
+                "room": "West Bldg W707C",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9589",
+                "section": "03-LEC Regular",
+                "days_times": "MoTh 10:00AM - 11:15AM",
+                "room": "West Bldg W707C",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9594",
+                "section": "04-LEC Regular",
+                "days_times": "MoWeTh 12:30PM - 1:20PM",
+                "room": "West Bldg W707C",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9587",
+                "section": "05-LEC Regular",
+                "days_times": "Su 9:10AM - 12:00PM",
+                "room": "West Bldg W707C",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9591",
+                "section": "06-LEC Regular",
+                "days_times": "TuFr 1:00PM - 2:15PM",
+                "room": "West Bldg W707C",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9590",
+                "section": "07-LEC Regular",
+                "days_times": "TuTh 4:00PM - 5:15PM",
+                "room": "West Bldg W707C",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9586",
+                "section": "08-LEC Regular",
+                "days_times": "MoWe 7:00PM - 8:15PM",
+                "room": "West Bldg W707C",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9588",
+                "section": "09-LEC Regular",
+                "days_times": "TuTh 8:30PM - 9:45PM",
+                "room": "West Bldg W707C",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9603",
+                "section": "10-LEC Regular",
+                "days_times": "TuTh 5:30PM - 6:45PM",
+                "room": "West Bldg W707C",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9602",
+                "section": "11-LEC Regular",
+                "days_times": "MoWe 4:00PM - 5:15PM",
+                "room": "West Bldg W707C",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9601",
+                "section": "12-LEC Regular",
+                "days_times": "MoWeTh 11:30AM - 12:20PM",
+                "room": "North Bldg C100",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9600",
+                "section": "13-LEC Regular",
+                "days_times": "Su 1:10PM - 4:00PM",
+                "room": "West Bldg W113",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9599",
+                "section": "14-LEC Regular",
+                "days_times": "Sa 9:10AM - 12:00PM",
+                "room": "West Bldg W405",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9598",
+                "section": "15-LEC Regular",
+                "days_times": "TuTh 7:00PM - 8:15PM",
+                "room": "West Bldg W207",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9597",
+                "section": "16-LEC Regular",
+                "days_times": "MoTh 1:00PM - 2:15PM",
+                "room": "West Bldg W413",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "9596",
+                "section": "17-LEC Regular",
+                "days_times": "MoWe 7:00PM - 8:15PM",
+                "room": "West Bldg W413",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a010200\u00a0-\u00a0Elementary Spanish 2",
+        "classes": [
+            {
+                "class": "9054",
+                "section": "01-LEC Regular",
+                "days_times": "MoTh 8:30AM - 9:45AM",
+                "room": "West Bldg W707B",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9053",
+                "section": "02-LEC Regular",
+                "days_times": "MoTh 10:00AM - 11:15AM",
+                "room": "West Bldg W707B",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "9052",
+                "section": "03-LEC Regular",
+                "days_times": "MoTh 1:00PM - 2:15PM",
+                "room": "West Bldg W707B",
+                "instructor": "Jenny Castillo",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9056",
+                "section": "04-LEC Regular",
+                "days_times": "TuWeFr 8:30AM - 9:20AM",
+                "room": "West Bldg W707B",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9057",
+                "section": "05-LEC Regular",
+                "days_times": "TuFr 11:30AM - 12:45PM",
+                "room": "West Bldg W509C",
+                "instructor": "Diana Conchado",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9055",
+                "section": "06-LEC Regular",
+                "days_times": "TuFr 4:00PM - 5:15PM",
+                "room": "West Bldg W509C",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9049",
+                "section": "07-LEC Regular",
+                "days_times": "Sa 9:10AM - 12:00PM",
+                "room": "West Bldg W406",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9050",
+                "section": "08-LEC Regular",
+                "days_times": "TuTh 7:00PM - 8:15PM",
+                "room": "West Bldg W707C",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9051",
+                "section": "09-LEC Regular",
+                "days_times": "TuTh 8:30PM - 9:45PM",
+                "room": "West Bldg W707B",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9064",
+                "section": "10-LEC Regular",
+                "days_times": "MoWe 8:30PM - 9:45PM",
+                "room": "West Bldg W707B",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9063",
+                "section": "11-LEC Regular",
+                "days_times": "MoTh 2:30PM - 3:45PM",
+                "room": "West Bldg W707C",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9062",
+                "section": "12-LEC Regular",
+                "days_times": "MoWe 7:00PM - 8:15PM",
+                "room": "West Bldg W408",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9061",
+                "section": "13-LEC Regular",
+                "days_times": "Sa 1:10PM - 4:00PM",
+                "room": "West Bldg W404",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9060",
+                "section": "14-LEC Regular",
+                "days_times": "Su 9:10AM - 12:00PM",
+                "room": "West Bldg W113",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9059",
+                "section": "15-LEC Regular",
+                "days_times": "Su 1:10PM - 4:00PM",
+                "room": "West Bldg W117",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9058",
+                "section": "16-LEC Regular",
+                "days_times": "MoWe 5:30PM - 6:45PM",
+                "room": "West Bldg W509C",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "9048",
+                "section": "ECI1-LEC Regular",
+                "days_times": "MoTuWeThFr 12:40PM - 1:25PM",
+                "room": "TBA",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a010300\u00a0-\u00a0Intensive Elementary Spanish",
+        "classes": [
+            {
+                "class": "9370",
+                "section": "01-LEC Regular",
+                "days_times": "TuWeFr 10:30AM - 11:20AMMoTh 10:00AM - 11:15AM",
+                "room": "West Bldg W504West Bldg W504",
+                "instructor": "",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/202401/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9368",
+                "section": "02-LEC Regular",
+                "days_times": "Sa 1:30PM - 4:00PMSa 10:00AM - 12:30PM",
+                "room": "West Bldg W707CWest Bldg W707C",
+                "instructor": "",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/202401/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9369",
+                "section": "03-LEC Regular",
+                "days_times": "Su 1:30PM - 4:00PMSu 10:00AM - 12:30PM",
+                "room": "West Bldg W405West Bldg W405",
+                "instructor": "",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/202401/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9367",
+                "section": "04-LEC Regular",
+                "days_times": "Su 1:30PM - 4:00PMSu 10:00AM - 12:30PM",
+                "room": "West Bldg W404West Bldg W404",
+                "instructor": "",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/202401/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a010500\u00a0-\u00a0Bas Rdg & Wrt Nat Spkr",
+        "classes": [
+            {
+                "class": "8589",
+                "section": "01-LEC Regular",
+                "days_times": "TuFr 1:00PM - 2:15PM",
+                "room": "North Bldg C113",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a010600\u00a0-\u00a0Oral & Wrt Sk for Nat",
+        "classes": [
+            {
+                "class": "9141",
+                "section": "01-LEC Regular",
+                "days_times": "TuFr 1:00PM - 2:15PM",
+                "room": "West Bldg W509C",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a020100\u00a0-\u00a0Intermediate Spanish I",
+        "classes": [
+            {
+                "class": "8721",
+                "section": "01-LEC Regular",
+                "days_times": "MoTh 8:30AM - 9:45AM",
+                "room": "West Bldg W206",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "8723",
+                "section": "02-LEC Regular",
+                "days_times": "TuWeFr 9:30AM - 10:20AM",
+                "room": "West Bldg W707B",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "8722",
+                "section": "03-LEC Regular",
+                "days_times": "TuFr 11:30AM - 12:45PM",
+                "room": "West Bldg W424",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "8724",
+                "section": "04-LEC Regular",
+                "days_times": "MoWeTh 12:30PM - 1:20PM",
+                "room": "North Bldg C100",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "8718",
+                "section": "05-LEC Regular",
+                "days_times": "TuFr 1:00PM - 2:15PM",
+                "room": "West Bldg W707B",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "8716",
+                "section": "06-LEC Regular",
+                "days_times": "Sa 1:10PM - 4:00PM",
+                "room": "West Bldg W405",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "8720",
+                "section": "07-LEC Regular",
+                "days_times": "TuFr 4:00PM - 5:15PM",
+                "room": "West Bldg W504",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "8719",
+                "section": "08-LEC Regular",
+                "days_times": "MoTh 10:00AM - 11:15AM",
+                "room": "West Bldg W413",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "8717",
+                "section": "09-LEC Regular",
+                "days_times": "TuTh 7:00PM - 8:15PM",
+                "room": "West Bldg W707B",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "8730",
+                "section": "10-LEC Regular",
+                "days_times": "MoTh 2:30PM - 3:45PM",
+                "room": "West Bldg W707B",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "8729",
+                "section": "11-LEC Regular",
+                "days_times": "TuTh 5:30PM - 6:45PM",
+                "room": "West Bldg W509",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "8728",
+                "section": "12-LEC Regular",
+                "days_times": "MoWe 8:30PM - 9:45PM",
+                "room": "West Bldg W408",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "8727",
+                "section": "13-LEC Regular",
+                "days_times": "TuFr 11:30AM - 12:45PM",
+                "room": "West Bldg W605",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "8726",
+                "section": "14-LEC Regular",
+                "days_times": "TuFr 8:30AM - 9:45AM",
+                "room": "North Bldg C107",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "8725",
+                "section": "15-LEC Regular",
+                "days_times": "MoWeTh 12:30PM - 1:20PM",
+                "room": "TBA",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a020200\u00a0-\u00a0Intermediate Spanish 2",
+        "classes": [
+            {
+                "class": "9191",
+                "section": "01-LEC Regular",
+                "days_times": "MoTh 8:30AM - 9:45AM",
+                "room": "West Bldg W504",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9193",
+                "section": "02-LEC Regular",
+                "days_times": "TuFr 1:00PM - 2:15PM",
+                "room": "West Bldg W413",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9195",
+                "section": "03-LEC Regular",
+                "days_times": "TuWeFr 9:30AM - 10:20AM",
+                "room": "West Bldg W413",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9196",
+                "section": "04-LEC Regular",
+                "days_times": "TuWeFr 10:30AM - 11:20AM",
+                "room": "West Bldg W413",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9192",
+                "section": "05-LEC Regular",
+                "days_times": "TuWeFr 8:30AM - 9:20AM",
+                "room": "West Bldg W413",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9187",
+                "section": "06-LEC Regular",
+                "days_times": "Su 1:10PM - 4:00PM",
+                "room": "West Bldg W413",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9189",
+                "section": "07-LEC Regular",
+                "days_times": "TuTh 5:30PM - 6:45PM",
+                "room": "West Bldg W504",
+                "instructor": "Rafael Fernandez",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9194",
+                "section": "08-LEC Regular",
+                "days_times": "MoTh 2:30PM - 3:45PM",
+                "room": "West Bldg W504",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9190",
+                "section": "09-LEC Regular",
+                "days_times": "TuFr 10:00AM - 11:15AM",
+                "room": "West Bldg W509",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "9200",
+                "section": "10-LEC Regular",
+                "days_times": "TuFr 4:00PM - 5:15PM",
+                "room": "West Bldg W509",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9199",
+                "section": "11-LEC Regular",
+                "days_times": "MoWe 8:30PM - 9:45PM",
+                "room": "West Bldg W207",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9198",
+                "section": "12-LEC Regular",
+                "days_times": "TuTh 8:30PM - 9:45PM",
+                "room": "North Bldg C101",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9197",
+                "section": "13-LEC Regular",
+                "days_times": "TuTh 7:00PM - 8:15PM",
+                "room": "North Bldg C101",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Closed"
+            },
+            {
+                "class": "9188",
+                "section": "W01-LEC Winter",
+                "days_times": "MoTuWeTh 1:00PM - 4:08PM",
+                "room": "West Bldg W413",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/02/2024 - 01/23/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a020300\u00a0-\u00a0Intensive Intermediate Spanish",
+        "classes": [
+            {
+                "class": "9125",
+                "section": "01-LEC Regular",
+                "days_times": "TuFr 11:30AM - 12:45PMMoWeTh 11:30AM - 12:20PM",
+                "room": "West Bldg W707BWest Bldg W707B",
+                "instructor": "",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/202401/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9122",
+                "section": "02-LEC Regular",
+                "days_times": "Sa 1:30PM - 4:00PMSa 10:00AM - 12:30PM",
+                "room": "West Bldg W504West Bldg W504",
+                "instructor": "",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/202401/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9123",
+                "section": "03-LEC Regular",
+                "days_times": "Sa 1:30PM - 4:00PMSa 10:00AM - 12:30PM",
+                "room": "West Bldg W509CWest Bldg W509C",
+                "instructor": "",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/202401/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "9124",
+                "section": "04-LEC Regular",
+                "days_times": "Su 1:30PM - 4:00PMSu 10:00AM - 12:30PM",
+                "room": "West Bldg W204West Bldg W204",
+                "instructor": "",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/202401/25/2024 - 05/22/2024",
+                "status": "Wait"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a020700\u00a0-\u00a0Interm Span: Native Speakers",
+        "classes": [
+            {
+                "class": "8636",
+                "section": "01-LEC Regular",
+                "days_times": "MoTh 2:30PM - 3:45PM",
+                "room": "West Bldg W413",
+                "instructor": "Maria Fischer",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "8637",
+                "section": "02-LEC Regular",
+                "days_times": "MoWe 4:00PM - 5:15PM",
+                "room": "West Bldg W413",
+                "instructor": "Rafael Fernandez",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a020800\u00a0-\u00a0Adv Span for Nat Spk",
+        "classes": [
+            {
+                "class": "7109",
+                "section": "01-LEC Regular",
+                "days_times": "MoTh 11:30AM - 12:45PM",
+                "room": "West Bldg W413",
+                "instructor": "Ana Tello",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            },
+            {
+                "class": "7107",
+                "section": "02-LEC Regular",
+                "days_times": "Sa 9:10AM - 12:00PM",
+                "room": "West Bldg W407",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            },
+            {
+                "class": "7108",
+                "section": "03-LEC Regular",
+                "days_times": "TuTh 4:00PM - 5:15PM",
+                "room": "West Bldg W413",
+                "instructor": "Monica Schinaider",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Wait"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a021100\u00a0-\u00a0Span Grmmr & Compos",
+        "classes": [
+            {
+                "class": "6341",
+                "section": "01-LEC Regular",
+                "days_times": "TuFr 1:00PM - 2:15PM",
+                "room": "West Bldg W504",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a022100\u00a0-\u00a0Spanish for Oral Communication",
+        "classes": [
+            {
+                "class": "43412",
+                "section": "01-LEC Regular",
+                "days_times": "MoWe 7:00PM - 8:15PM",
+                "room": "West Bldg W504",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a027000\u00a0-\u00a0Span Comp Sp Spkg St",
+        "classes": [
+            {
+                "class": "9382",
+                "section": "01-LEC Regular",
+                "days_times": "MoTh 10:00AM - 11:15AM",
+                "room": "West Bldg W1344",
+                "instructor": "Ana Tello",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a027600\u00a0-\u00a0Rdng:Mod Span Am Lit",
+        "classes": [
+            {
+                "class": "7455",
+                "section": "01-LEC Regular",
+                "days_times": "MoTh 2:30PM - 3:45PM",
+                "room": "West Bldg W1344",
+                "instructor": "Magdalena Perkowska-Alvarez",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a031100\u00a0-\u00a0Structr of Modn Span",
+        "classes": [
+            {
+                "class": "9074",
+                "section": "01-LEC Regular",
+                "days_times": "TuFr 11:30AM - 12:45PM",
+                "room": "West Bldg W707C",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a031200\u00a0-\u00a0Advanced Spanish Writing",
+        "classes": [
+            {
+                "class": "8982",
+                "section": "01-LEC Regular",
+                "days_times": "TuTh 7:00PM - 8:15PM",
+                "room": "West Bldg W413",
+                "instructor": "Rafael Fernandez",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a031300\u00a0-\u00a0Spanish Stylistics",
+        "classes": [
+            {
+                "class": "6667",
+                "section": "01-LEC Regular",
+                "days_times": "MoWe 5:30PM - 6:45PM",
+                "room": "West Bldg W413",
+                "instructor": "Rafael Fernandez",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a033600\u00a0-\u00a0Latin American Civilization",
+        "classes": [
+            {
+                "class": "7243",
+                "section": "01-LEC Regular",
+                "days_times": "Th 11:30AM - 2:20PM",
+                "room": "ThomHunter 414",
+                "instructor": "Maria Fischer",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a034100\u00a0-\u00a0Intro:Hispanic Lit 1",
+        "classes": [
+            {
+                "class": "6671",
+                "section": "01-LEC Regular",
+                "days_times": "TuFr 1:00PM - 2:15PM",
+                "room": "West Bldg W1344",
+                "instructor": "Diana Conchado",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a034200\u00a0-\u00a0Intro:Hispan Lit 2",
+        "classes": [
+            {
+                "class": "6349",
+                "section": "01-LEC Regular",
+                "days_times": "TuTh 5:30PM - 6:45PM",
+                "room": "West Bldg W413",
+                "instructor": "Monica Schinaider",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a036000\u00a0-\u00a0Span American Lit Colonial",
+        "classes": [
+            {
+                "class": "44152",
+                "section": "01-LEC Regular",
+                "days_times": "Th 5:30PM - 7:20PM",
+                "room": "West Bldg W1344",
+                "instructor": "Maria Fischer",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a037081\u00a0-\u00a0Contemp Span Theater 19 & 20 C",
+        "classes": [
+            {
+                "class": "45077",
+                "section": "01-LEC Regular",
+                "days_times": "Tu 4:00PM - 5:15PMFr 4:00PM - 5:15PM",
+                "room": "Online-SynchronousWest Bldg W1344",
+                "instructor": "Maria Hernandez-Ojeda",
+                "instruction_mode": "Hybrid Synchronous",
+                "meeting_dates": "01/25/2024 - 05/22/202401/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a037192\u00a0-\u00a0Tell Story in Lat Am Nv Flm Ar",
+        "classes": [
+            {
+                "class": "45082",
+                "section": "01-LEC Regular",
+                "days_times": "Mo 11:30AM - 2:20PM",
+                "room": "North Bldg C112",
+                "instructor": "Magdalena Perkowska-Alvarez",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a038300\u00a0-\u00a0Trans:Engl into Span",
+        "classes": [
+            {
+                "class": "8334",
+                "section": "01-LEC Regular",
+                "days_times": "TuTh 5:30PM - 6:45PM",
+                "room": "Online-Synchronous",
+                "instructor": "Tania Varela",
+                "instruction_mode": "Online Synchronous",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a039005\u00a0-\u00a0Rl in Lang Ser Ind Fr Ho Pr Mg",
+        "classes": [
+            {
+                "class": "45085",
+                "section": "01-LEC Regular",
+                "days_times": "MoWe 7:00PM - 8:15PM",
+                "room": "West Bldg W207",
+                "instructor": "Tania Varela",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a039100\u00a0-\u00a0Internship in Translation",
+        "classes": [
+            {
+                "class": "11486",
+                "section": "01-INT Regular",
+                "days_times": "TBA",
+                "room": "TBA",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "01/25/2024 - 05/22/2024",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a039200\u00a0-\u00a0Internship in Interpretation",
+        "classes": [
+            {
+                "class": "11485",
+                "section": "01-INT Regular",
+                "days_times": "TBA",
+                "room": "TBA",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "-",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a049100\u00a0-\u00a0Honrs Crs in Spanish",
+        "classes": [
+            {
+                "class": "6738",
+                "section": "01-LEC Regular",
+                "days_times": "TBA",
+                "room": "TBA",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "-",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a049501\u00a0-\u00a0Independent Study",
+        "classes": [
+            {
+                "class": "6752",
+                "section": "01-IND Regular",
+                "days_times": "TBA",
+                "room": "TBA",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "-",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a049502\u00a0-\u00a0Independent Study",
+        "classes": [
+            {
+                "class": "6854",
+                "section": "01-IND Regular",
+                "days_times": "TBA",
+                "room": "TBA",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "-",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a049503\u00a0-\u00a0Independent Study",
+        "classes": [
+            {
+                "class": "9119",
+                "section": "01-IND Regular",
+                "days_times": "TBA",
+                "room": "TBA",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "-",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a049801\u00a0-\u00a0In Service",
+        "classes": [
+            {
+                "class": "7734",
+                "section": "01-INT Regular",
+                "days_times": "TBA",
+                "room": "TBA",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "-",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a049802\u00a0-\u00a0In Service",
+        "classes": [
+            {
+                "class": "8426",
+                "section": "01-INT Regular",
+                "days_times": "TBA",
+                "room": "TBA",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "-",
+                "status": "Open"
+            }
+        ]
+    },
+    {
+        "course_name": "SPAN\u00a049803\u00a0-\u00a0In Service",
+        "classes": [
+            {
+                "class": "7055",
+                "section": "01-INT Regular",
+                "days_times": "TBA",
+                "room": "TBA",
+                "instructor": "TBA",
+                "instruction_mode": "In Person",
+                "meeting_dates": "-",
+                "status": "Open"
+            }
+        ]
+    }
+]

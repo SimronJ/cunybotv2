@@ -100,7 +100,7 @@
                 "instructor": "TBA",
                 "instruction_mode": "In Person",
                 "meeting_dates": "01/25/2024 - 05/22/2024",
-                "status": "Closed"
+                "status": "Wait"
             },
             {
                 "class": "9602",
@@ -116,7 +116,7 @@
                 "class": "9601",
                 "section": "12-LEC Regular",
                 "days_times": "MoWeTh 11:30AM - 12:20PM",
-                "room": "TBA",
+                "room": "North Bldg C100",
                 "instructor": "TBA",
                 "instruction_mode": "In Person",
                 "meeting_dates": "01/25/2024 - 05/22/2024",
@@ -195,7 +195,7 @@
                 "instructor": "TBA",
                 "instruction_mode": "In Person",
                 "meeting_dates": "01/25/2024 - 05/22/2024",
-                "status": "Wait"
+                "status": "Closed"
             },
             {
                 "class": "9052",
@@ -335,7 +335,7 @@
                 "instructor": "TBA",
                 "instruction_mode": "In Person",
                 "meeting_dates": "01/25/2024 - 05/22/2024",
-                "status": "Open"
+                "status": "Closed"
             },
             {
                 "class": "9048",
@@ -401,7 +401,7 @@
                 "class": "8589",
                 "section": "01-LEC Regular",
                 "days_times": "TuFr 1:00PM - 2:15PM",
-                "room": "TBA",
+                "room": "North Bldg C113",
                 "instructor": "TBA",
                 "instruction_mode": "In Person",
                 "meeting_dates": "01/25/2024 - 05/22/2024",
@@ -461,7 +461,7 @@
                 "class": "8724",
                 "section": "04-LEC Regular",
                 "days_times": "MoWeTh 12:30PM - 1:20PM",
-                "room": "TBA",
+                "room": "North Bldg C100",
                 "instructor": "TBA",
                 "instruction_mode": "In Person",
                 "meeting_dates": "01/25/2024 - 05/22/2024",
